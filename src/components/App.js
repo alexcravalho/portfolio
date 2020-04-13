@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from './Home';
+import About from './About';
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
@@ -41,6 +42,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Home homeList={this.state.homeList} hrefList={this.state.hrefList} iconList={this.state.iconList}/>
+        <About />
       </div>
     );
   }
