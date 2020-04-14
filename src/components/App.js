@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './Home';
 import About from './About';
+import Skills from './Skills';
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
@@ -33,8 +34,44 @@ class App extends React.Component {
         faGithubSquare,
         faPhoneSquareAlt,
         faPaperPlane
+      ],
+      frontEndList: [
+        'TypeScript',
+        'JavaScript',
+        'React',
+        'React Hooks',
+        'Material-UI',
+        'jQuery',
+        'HTML',
+        'CSS',
+      ],
+      backEndList: [
+        'Node/Express',
+        'MongoDB',
+        'PostgreSQL',
+        'mySQL',
+        'Cassandra'
+      ],
+      toolsList: [
+        'Docker',
+        'Nginx',
+        'Git/Github',
+        'K6',
+        'Loader.io',
+        'Webpack',
+        'Babel',
+        'Jest/Enzyme',
+        'Mocha/Chai',
+        'Eslint',
+        'Trello',
+        'Puppeteer'
+      ],
+      otherList: [
+        'RESTful API',
+        'Agile',
+        'TDD',
+        'MVC'
       ]
-
     }
 
   }
@@ -43,6 +80,7 @@ class App extends React.Component {
       <div className="App">
         <Home homeList={this.state.homeList} hrefList={this.state.hrefList} iconList={this.state.iconList}/>
         <About />
+        <Skills  frontEndList={this.state.frontEndList} backEndList={this.state.backEndList} toolsList={this.state.toolsList} otherList={this.state.otherList}/>
       </div>
     );
   }
