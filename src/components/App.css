@@ -9,17 +9,71 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: auto;
   height: 100%;
 }
 
 .home-buttons-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.home-buttons {
+.home-button {
   display: flex;
   flex-direction: row;
+  font-size: 3vw;
+  margin: 2vh;
+  padding: 7px
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.home-button-text {
+ margin: .35em 0em .35em 0em;
+}
+
+.name {
+  font-size: 7.5vw;
+  line-height: 10vh;
+  margin-top: 20vh;
+}
+
+.position {
+  font-size: 4vw;
+  margin: 8vh;
+  line-height: 8vh;
+}
+
+.heading {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.About, .Home, .Skills {
+  margin: 0em 3em 3em 3em;
+}
+
+.about-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.items-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sub-heading {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.item {
+  margin: 8px 8px 16px 0px;
+  font-size: 22px;
 }
