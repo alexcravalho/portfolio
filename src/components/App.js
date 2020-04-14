@@ -18,7 +18,7 @@ class App extends React.Component {
         'RESUME',
         'LINKEDIN',
         'GITHUB',
-        '(530) 559-6101',
+        "(530) 559-6101",
         'a.d.cravalho@gmail.com'
       ],
       hrefList: [
@@ -49,7 +49,7 @@ class App extends React.Component {
         'Node/Express',
         'MongoDB',
         'PostgreSQL',
-        'mySQL',
+        'MySQL',
         'Cassandra'
       ],
       toolsList: [

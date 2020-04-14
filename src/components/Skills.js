@@ -8,7 +8,7 @@ const Skills = (props) => (
       <div className='sub-heading'>Front-End</div>
       <div className='items-container'>
         {props.frontEndList.map((item, idx) => (
-          <div key={idx}>{item}</div>
+          <div className='item' key={idx}>{item}</div>
         ))}
       </div>
     </div>
@@ -16,7 +16,7 @@ const Skills = (props) => (
       <div className='sub-heading'>Back-End</div>
       <div className='items-container'>
         {props.backEndList.map((item, idx) => (
-          <div key={idx}>{item}</div>
+          <div className='item' key={idx}>{item}</div>
         ))}
       </div>
     </div>
@@ -24,7 +24,7 @@ const Skills = (props) => (
       <div className='sub-heading'>Tools</div>
       <div className='items-container'>
         {props.toolsList.map((item, idx) => (
-          <div key={idx}>{item}</div>
+          <div className='item' key={idx}>{item}</div>
         ))}
       </div>
     </div>
@@ -32,7 +32,7 @@ const Skills = (props) => (
       <div className='sub-heading'>Other</div>
       <div className='items-container'>
         {props.otherList.map((item, idx) => (
-          <div key={idx}>{item}</div>
+          <div className='item' key={idx}>{item}</div>
         ))}
       </div>
     </div>
