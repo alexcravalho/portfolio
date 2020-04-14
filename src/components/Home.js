@@ -9,14 +9,14 @@ const FontAwesomeStyle = {
 
 const Home = (props) => (
   <div className="Home">
-    <div>Alex Cravalho</div>
-    <div>Software Engineer</div>
+    <div className='name'>Alex Cravalho</div>
+    <div className='position'>Software Engineer</div>
     <div className='home-buttons-container'>
       {props.homeList.map((text, idx) => (
         <a href={props.hrefList[idx]} key={idx}>
-          <div className='home-buttons'>
+          <div className='home-button'>
             <FontAwesomeIcon style={FontAwesomeStyle} icon={props.iconList[idx]}/>
-            <div>{text}</div>
+            <div className='home-button-text'>{text}</div>
           </div>
         </a>
       ))}
