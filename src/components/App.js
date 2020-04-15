@@ -10,6 +10,8 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
+import { faMinusCircle } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
 
@@ -36,7 +38,9 @@ class App extends React.Component {
         faLinkedin,
         faGithubSquare,
         faPhoneSquareAlt,
-        faPaperPlane
+        faPaperPlane,
+        faPlusCircle,
+        faMinusCircle
       ],
       frontEndList: [
         'TypeScript',
@@ -82,11 +86,13 @@ class App extends React.Component {
     return (
       <div className="App">
         <Home homeList={this.state.homeList} hrefList={this.state.hrefList} iconList={this.state.iconList}/>
-        <About />
-        <Skills  frontEndList={this.state.frontEndList} backEndList={this.state.backEndList} toolsList={this.state.toolsList} otherList={this.state.otherList}/>
-        <Recent />
-        <Experience />
-        <Education />
+        <div className="info">
+          <About />
+          <Skills  frontEndList={this.state.frontEndList} backEndList={this.state.backEndList} toolsList={this.state.toolsList} otherList={this.state.otherList}/>
+          <Recent />
+          <Experience />
+          <Education iconList={this.state.iconList}/>
+        </div>
       </div>
     );
   }
