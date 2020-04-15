@@ -8,8 +8,7 @@ class Education extends React.Component {
     super(props)
     this.state = {
       hrInfo: true,
-      scInfo: true,
-
+      scInfo: true
     }
     this.handleClick = this.handleClick.bind(this);
   }
@@ -26,28 +25,39 @@ class Education extends React.Component {
 
         <div className='dropdown' onClick={() => {this.handleClick('hrInfo')}}>
           <span>Hack Reactor, Advanced Software Engineering Immersive</span>
-          <span>2019</span>
-          {this.state.hrInfo && <span>
+          <span className='dropdown-date'>2019</span>
+          {this.state.hrInfo && <span className='dropdown-symbol'>
             <FontAwesomeIcon icon={this.props.iconList[5]}/>
           </span>}
-          {!this.state.hrInfo && <span>
+          {!this.state.hrInfo && <span className='dropdown-symbol'>
             <FontAwesomeIcon icon={this.props.iconList[6]}/>
           </span>}
-          {!this.state.hrInfo && <div className='invisible-text'>Some Text Here</div>}
         </div>
+
+        {!this.state.hrInfo && <div className='invisible-dropdown'>
+            <div className='invisible-dropdown-title'>Full Stack JavaScript 18 Week Program</div>
+            <div className='invisible-dropdown-text'>
+              lorem ipsum.....
+            </div>
+          </div>}
 
         <div className='dropdown' onClick={() => {this.handleClick('scInfo')}} >
-          <span>UC Santa Cruz, Business Management Economics</span>
-          <span>2011</span>
-          {this.state.scInfo && <span>
+          <span>UC Santa Cruz, Bachelor of Arts</span>
+          <span className='dropdown-date'>2011</span>
+          {this.state.scInfo && <span className='dropdown-symbol'>
             <FontAwesomeIcon icon={this.props.iconList[5]}/>
           </span>}
-          {!this.state.scInfo && <span>
+          {!this.state.scInfo && <span className='dropdown-symbol'>
             <FontAwesomeIcon icon={this.props.iconList[6]}/>
           </span>}
-          {!this.state.scInfo && <div className='invisible-text'>Some Text Here</div>}
         </div>
 
+        {!this.state.scInfo && <div className='invisible-dropdown'>
+            <div className='invisible-dropdown-title'>Major in Business Management Economics</div>
+            <div className='invisible-dropdown-text'>
+              lorem ipsum.....
+            </div>
+          </div>}
 
       </div>
     </div>
