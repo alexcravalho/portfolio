@@ -2,6 +2,9 @@ import React from 'react';
 import Home from './Home';
 import About from './About';
 import Skills from './Skills';
+import Recent from './Recent';
+import Experience from './Experience';
+import Education from './Education';
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
@@ -81,6 +84,9 @@ class App extends React.Component {
         <Home homeList={this.state.homeList} hrefList={this.state.hrefList} iconList={this.state.iconList}/>
         <About />
         <Skills  frontEndList={this.state.frontEndList} backEndList={this.state.backEndList} toolsList={this.state.toolsList} otherList={this.state.otherList}/>
+        <Recent />
+        <Experience />
+        <Education />
       </div>
     );
   }
