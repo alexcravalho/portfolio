@@ -128,3 +128,42 @@ button {
   font-size: 18px;
   margin: 15px 45px 0px 45px;
 }
+
+.dropdown-container {
+  font-size: 22px;
+}
+
+.dropdown {
+  background-color: rgb(198, 198, 198);
+  color: black;
+  border: 1px solid rgb(181, 181, 181);
+  padding: 15px;
+  margin-top: 5px;
+  box-shadow: 1px 1px 3px #1A1D1E;
+  cursor: pointer;
+}
+
+.dropdown-symbol {
+  float: right;
+  font-size: 1.5rem;
+}
+
+.dropdown-date {
+  margin-left: .7em;
+  font-size: 18px;
+  color: rgb(74, 74, 74)
+}
+
+.invisible-dropdown {
+  font-size: 18px;
+  padding: 15px;
+  margin-top: 5px;
+  line-height: 30px;
+  text-align: left;
+  border: 1px solid rgb(205, 203, 206);
+}
+
+.invisible-dropdown-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
