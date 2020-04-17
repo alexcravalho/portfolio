@@ -148,7 +148,7 @@ button {
   font-size: 1.5rem;
 }
 
-.dropdown-date {
+.dropdown-date, .job-date {
   margin-left: .7em;
   font-size: 18px;
   color: rgb(74, 74, 74)
@@ -166,4 +166,25 @@ button {
 .invisible-dropdown-title {
   font-size: 22px;
   margin-bottom: 10px;
+}
+
+.job-description {
+  background-color: rgb(198, 198, 198);
+  color: black;
+  border: 1px solid rgb(181, 181, 181);
+  padding: 25px;
+  box-shadow: 1px 1px 3px #1A1D1E;
+  cursor: pointer;
+  margin: 15px 0px 15px 0px;
+}
+
+.job-title {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.job-text {
+  font-size: 16px;
+  padding: 10px;
+  line-height: 30px;
 }
