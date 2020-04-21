@@ -73,6 +73,7 @@ a {
 .items-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .sub-heading {
@@ -80,9 +81,15 @@ a {
   font-weight: 700;
 }
 
-.item {
+.item, .button {
   margin: 8px 8px 16px 0px;
+  padding: 8px;
   font-size: 22px;
+  color: #fff;
+  border-radius: 4px;
+  background: #508853;
+  font-weight: 300;
+
 }
 
 .application-item {
@@ -124,7 +131,7 @@ a {
   justify-content: center;
 }
 
-button {
+.button {
   font-size: 18px;
   margin: 15px 45px 0px 45px;
 }
