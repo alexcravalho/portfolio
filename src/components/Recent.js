@@ -3,7 +3,7 @@ import './App.css';
 
 const Recent = (props) => (
   <div className='Recent'>
-    <div className='heading'>Work Experience</div>
+    <div className='heading'>Recent Projects</div>
     <div className="application-list">
       <div className="application-item">
         <img className='recent-img' src='/images/green.webp' alt='green'></img>
@@ -18,7 +18,7 @@ const Recent = (props) => (
         </div>
       </div>
       <div className="application-item">
-      <img className='recent-img' src='/images/crashlogo.webp' alt='crash logo'></img>
+      <img className='recent-img' src='/images/hockey1.webp' alt='hockey'></img>
         <div className="recent-text-container">
           <div className="recent-title">Crash Stats</div>
           <div className="recent-skills">React | React Hooks | JavaScript | Express | Node | MongoDB | AWS | Docker</div>
