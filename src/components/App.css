@@ -100,6 +100,8 @@ a {
 
 .recent-img {
  box-shadow: 1px 1px 3px #1A1D1E;
+ width: 320px !important;
+ height: 280px !important;
 }
 
 .recent-text-container {
@@ -115,6 +117,7 @@ a {
 
 .recent-skills {
   text-align: center;
+  padding-left: 10px;
   font-size: 18px;
   margin-bottom: 10px;
 }
