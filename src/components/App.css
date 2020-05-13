@@ -143,10 +143,19 @@ a {
   font-size: 22px;
 }
 
-.dropdown {
+.dropdown-grey {
   background-color: rgb(198, 198, 198);
   color: black;
   border: 1px solid rgb(181, 181, 181);
+  padding: 15px;
+  margin-top: 5px;
+  box-shadow: 1px 1px 3px #1A1D1E;
+  cursor: pointer;
+}
+.dropdown-green {
+  background-color: #508853;
+  color: #fff;
+  border: 1px solid #508853;
   padding: 15px;
   margin-top: 5px;
   box-shadow: 1px 1px 3px #1A1D1E;
@@ -158,10 +167,15 @@ a {
   font-size: 1.5rem;
 }
 
-.dropdown-date, .job-date {
+.dropdown-date-grey, .job-date {
   margin-left: .7em;
   font-size: 18px;
   color: rgb(74, 74, 74)
+}
+.dropdown-date-white {
+  margin-left: .7em;
+  font-size: 18px;
+  color: #fff
 }
 
 .invisible-dropdown {
