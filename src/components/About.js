@@ -17,7 +17,11 @@ const About = (props) => (
     <div className='about-text'>
       When I'm not programming, I love to travel, play my ukelele, and explore the outdoors.
     </div>
-    <div>Pictures</div>
+    <div className='about-pic-row'>
+      {props.aboutImgList.map((pic, idx) => (
+        <img className='about-img' alt={pic} key={idx} src={`https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/${pic}.jpg`}></img>
+      ))}
+    </div>
   </div>
 );
 
