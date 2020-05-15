@@ -42,6 +42,12 @@ class App extends React.Component {
         faPlusCircle,
         faMinusCircle
       ],
+      aboutImgList: [
+        'tiger',
+        'canoe',
+        'hike',
+        'phil'
+      ],
       frontEndList: [
         'TypeScript',
         'JavaScript',
@@ -105,7 +111,7 @@ class App extends React.Component {
       <div className="App">
         <Home homeList={this.state.homeList} hrefList={this.state.hrefList} iconList={this.state.iconList}/>
         <div className="info">
-          <About />
+          <About aboutImgList={this.state.aboutImgList} />
           <Skills  frontEndList={this.state.frontEndList} backEndList={this.state.backEndList} toolsList={this.state.toolsList} otherList={this.state.otherList}/>
           <Recent />
           <Experience jobList={this.state.jobList} jobDes={this.state.jobDes} jobDates={this.state.jobDates}/>
