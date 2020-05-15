@@ -11,6 +11,16 @@
   align-items: center;
   width: auto;
   height: 100%;
+  padding-bottom: 5.5em;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-shadow: 2px 2px 10px #1A1D1E;
 }
 
 .info {
@@ -61,8 +71,12 @@ a {
   margin-bottom: 20px;
 }
 
-.About, .Home, .Skills, .Recent, .Experience, .Education {
+.Skills, .Recent, .Experience, .Education {
   margin: 0em 3em 3em 3em;
+}
+
+.About {
+  margin: 3em 3em 3em 3em;
 }
 
 .about-text {
