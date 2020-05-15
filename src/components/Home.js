@@ -3,8 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './App.css';
 
 const FontAwesomeStyle = {
-  margin: '0.4em',
-  color: 'black',
+  margin: '0.4em'
 }
 
 const Home = (props) => (
