@@ -6,33 +6,45 @@ const Skills = (props) => (
     <div className='heading'>Skills</div>
     <div className='front-end-container'>
       <div className='sub-heading'>Front-End</div>
-      <div className='items-container'>
-        {props.frontEndList.map((item, idx) => (
-          <div className='item' key={idx}>{item}</div>
+      <div className='skill-container'>
+        {props.frontEndList.map((skill, idx) => (
+          <div className='skill'>
+            <span className='skill-hover-text'>Text describing the skill</span>
+            <div className='skill-name' key={idx}>{skill}</div>
+          </div>
         ))}
       </div>
     </div>
     <div className='back-end-container'>
       <div className='sub-heading'>Back-End</div>
-      <div className='items-container'>
-        {props.backEndList.map((item, idx) => (
-          <div className='item' key={idx}>{item}</div>
+      <div className='skill-container'>
+        {props.backEndList.map((skill, idx) => (
+        <div className='skill'>
+          <span className='skill-hover-text'>Text describing the skill</span>
+          <div className='skill-name' key={idx}>{skill}</div>
+        </div>
         ))}
       </div>
     </div>
     <div className='tools-container'>
       <div className='sub-heading'>Tools</div>
-      <div className='items-container'>
-        {props.toolsList.map((item, idx) => (
-          <div className='item' key={idx}>{item}</div>
+      <div className='skill-container'>
+        {props.toolsList.map((skill, idx) => (
+        <div className='skill'>
+          <span className='skill-hover-text'>Text describing the skill</span>
+          <div className='skill-name' key={idx}>{skill}</div>
+        </div>
         ))}
       </div>
     </div>
     <div className='other-container'>
       <div className='sub-heading'>Other</div>
-      <div className='items-container'>
-        {props.otherList.map((item, idx) => (
-          <div className='item' key={idx}>{item}</div>
+      <div className='skill-container'>
+        {props.otherList.map((skill, idx) => (
+        <div className='skill'>
+          <span className='skill-hover-text'>Text describing the skill</span>
+          <div className='skill-name' key={idx}>{skill}</div>
+        </div>
         ))}
       </div>
     </div>
