@@ -165,17 +165,6 @@ a {
   font-weight: 700;
 }
 
-/*
-position: relative;
-    text-align: center;
-    display: inline-block;
-    padding: 8px;
-    font-size: 18px;
-    margin: 4px 12px 12px 0px;
-    background-color: var(--dark-color);
-    color: var(--base-color);
-    box-shadow: var(--shadow); */
-
 .application-list {
   display: flex;
   flex-direction: column;
@@ -289,7 +278,6 @@ position: relative;
   border: 1px solid rgb(181, 181, 181);
   padding: 25px;
   box-shadow: 1px 1px 3px #1a1d1e;
-  cursor: pointer;
   margin: 15px 0px 15px 0px;
 }
 
