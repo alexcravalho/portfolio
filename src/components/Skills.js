@@ -9,7 +9,7 @@ const Skills = (props) => (
       <div className='skill-container'>
         {props.frontEndList.map((skill, idx) => (
           <div className='skill' key={idx}>
-            <span className='skill-hover-text'>Text describing the skill</span>
+            <span className='skill-hover-text'>{props.frontDes[idx]}</span>
             <div className='skill-name'>{skill}</div>
           </div>
           ))}
@@ -20,7 +20,7 @@ const Skills = (props) => (
       <div className='skill-container'>
         {props.backEndList.map((skill, idx) => (
         <div className='skill' key={idx}>
-          <span className='skill-hover-text'>Text describing the skill</span>
+          <span className='skill-hover-text'>{props.backDes[idx]}</span>
           <div className='skill-name'>{skill}</div>
         </div>
         ))}
@@ -31,7 +31,7 @@ const Skills = (props) => (
       <div className='skill-container'>
         {props.toolsList.map((skill, idx) => (
         <div className='skill' key={idx}>
-          <span className='skill-hover-text'>Text describing the skill</span>
+          <span className='skill-hover-text'>{props.toolDes[idx]}</span>
           <div className='skill-name'>{skill}</div>
         </div>
         ))}
@@ -42,7 +42,7 @@ const Skills = (props) => (
       <div className='skill-container'>
         {props.otherList.map((skill, idx) => (
         <div className='skill' key={idx}>
-          <span className='skill-hover-text'>Text describing the skill</span>
+          <span className='skill-hover-text'>{props.otherDes[idx]}</span>
           <div className='skill-name'>{skill}</div>
         </div>
         ))}
