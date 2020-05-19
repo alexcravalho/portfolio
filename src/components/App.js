@@ -63,7 +63,7 @@ class App extends React.Component {
         'MongoDB',
         'PostgreSQL',
         'MySQL',
-        'Cassandra'
+        'Apache Cassandra'
       ],
       toolsList: [
         'Docker',
@@ -85,6 +85,24 @@ class App extends React.Component {
         'TDD',
         'MVC'
       ],
+      frontDes: [
+        'Developers prefer TypeScript over JavaScript because of its static type checking and readability, so I thought it would be fun to learn and add to my repertoire. Check out my GreenPDF Internal Tool project!',
+
+        "JavaScript is my main programming language and where I wrote my first 'Hello World.'",
+
+        'React is the modern framework I prefer to use when building applications. This site was built with React!',
+
+        'React Hooks uses only functional components, which streamlines React applications and makes them more understandable and readable.',
+
+        'Material-UI is a package with pre-built and thorougly tested user interface components, that make web development faster and easier.',
+
+        'The very first application I built used only jQuery, vanilla JS, and CSS.',
+
+        'This is the foundation of all modern web applications.',
+
+        'I style pixel-perfect user interfaces with a deep knowledge of CSS'
+      ],
+
       jobList: [
         'Hack Reactor at Galvanize Inc.',
         'United States Peace Corps',
@@ -112,7 +130,7 @@ class App extends React.Component {
         <Home homeList={this.state.homeList} hrefList={this.state.hrefList} iconList={this.state.iconList}/>
         <div className="info">
           <About aboutImgList={this.state.aboutImgList} />
-          <Skills  frontEndList={this.state.frontEndList} backEndList={this.state.backEndList} toolsList={this.state.toolsList} otherList={this.state.otherList}/>
+          <Skills  frontEndList={this.state.frontEndList} backEndList={this.state.backEndList} toolsList={this.state.toolsList} otherList={this.state.otherList} frontDes={this.state.frontDes} backDes={this.state.backDes} toolDes={this.state.toolDes} otherDes={this.state.otherDes}/>
           <Recent />
           <Experience jobList={this.state.jobList} jobDes={this.state.jobDes} jobDates={this.state.jobDates}/>
           <Education iconList={this.state.iconList}/>
