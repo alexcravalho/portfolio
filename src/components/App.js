@@ -102,6 +102,20 @@ class App extends React.Component {
         'Another good relational database option used by Netflix and GitHub',
         'A powerhouse database known for its ability to handle large amounts of data and being highly scalable.'
       ],
+      toolDes: [
+        'My preferred method of containerization for deployment',
+        'I have experience implementing Nginx as a load balancer to scale a service for high web traffic.',
+        'My favorite version control system that I use for most of my applications',
+        'An open-source load testing tool that makes performance testing easier.',
+        'A cloud based load and scalability testing service',
+        'One of the best module bundlers that is widely used',
+        'A JavaScript compiler that works well with both JavaScript and TypeScript',
+        'A simple yet powerful combo for testing React components',
+        'Mocha is a JavaScript testing utility used in combination with Chai an assertion library for testing.',
+        'Eslint helps programmers follow best practices by identifying problematic code during the development process.',
+        'Trello is an easy to use collaboration tool that lets users organize projects on boards. This is very helpful in Kanban style workflow management.',
+        'Puppeteer is a Node.js library that provides high-level API control of headless Chrome browser.'
+      ],
       jobList: [
         'Hack Reactor at Galvanize Inc.',
         'United States Peace Corps',
