@@ -87,22 +87,21 @@ class App extends React.Component {
       ],
       frontDes: [
         'Developers prefer TypeScript over JavaScript because of its static type checking and readability, so I thought it would be fun to learn and add to my repertoire. Check out my GreenPDF Internal Tool project!',
-
         "JavaScript is my main programming language and where I wrote my first 'Hello World.'",
-
         'React is the modern framework I prefer to use when building applications. This site was built with React!',
-
         'React Hooks uses only functional components, which streamlines React applications and makes them more understandable and readable.',
-
         'Material-UI is a package with pre-built and thorougly tested user interface components, that make web development faster and easier.',
-
         'The very first application I built used only jQuery, vanilla JS, and CSS.',
-
         'This is the foundation of all modern web applications.',
-
         'I style pixel-perfect user interfaces with a deep knowledge of CSS'
       ],
-
+      backDes: [
+        "The 'N' and 'E' of the 'MERN' stack and my go-to for the back-end.",
+        'An exceptional NoSQL database that is flexible and easy to use.',
+        'A powerful object-relational database used by big companies like Apple',
+        'Another good relational database option used by Netflix and GitHub',
+        'A powerhouse database known for its ability to handle large amounts of data and being highly scalable.'
+      ],
       jobList: [
         'Hack Reactor at Galvanize Inc.',
         'United States Peace Corps',
