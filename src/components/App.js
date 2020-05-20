@@ -116,6 +116,12 @@ class App extends React.Component {
         'Trello is an easy to use collaboration tool that lets users organize projects on boards. This is very helpful in Kanban style workflow management.',
         'Puppeteer is a Node.js library that provides high-level API control of headless Chrome browser.'
       ],
+      otherDes: [
+        "This architectural style is what I use for all my API's when I build applications with a back-end.",
+        'I have exprience with Agile practices including test-driven development, executing sprints, pair programing, and cross-team coordination.',
+        'I have experience developing my own testing suites for various projects.',
+        'Model-View-Controller design pattern that reinforces separation of concerns and good programming practices.'
+      ],
       jobList: [
         'Hack Reactor at Galvanize Inc.',
         'United States Peace Corps',
