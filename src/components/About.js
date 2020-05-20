@@ -15,7 +15,7 @@ const About = (props) => (
     <br/>
     <br/>
     <div className='about-text'>
-      When I'm not programming, I love to travel, play my ukelele, and explore the outdoors.
+      When I'm not programming, I love to travel, explore the outdoors, play my ukelele, and play just about any kind of game.
     </div>
     <div className='about-pic-row'>
       {props.aboutImgList.map((pic, idx) => (
