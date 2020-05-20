@@ -5,6 +5,7 @@ import Skills from './Skills';
 import Recent from './Recent';
 import Experience from './Experience';
 import Education from './Education';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
@@ -13,7 +14,6 @@ import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 import { faMinusCircle } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
-
 
 class App extends React.Component {
   constructor(props) {
@@ -44,9 +44,11 @@ class App extends React.Component {
       ],
       aboutImgList: [
         'tiger',
+        'phil',
         'canoe',
-        'hike',
-        'phil'
+        'ukelele',
+        'catan',
+        'ps4'
       ],
       frontEndList: [
         'TypeScript',
@@ -145,14 +147,37 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="App">
+      <div className='App'>
         <Home homeList={this.state.homeList} hrefList={this.state.hrefList} iconList={this.state.iconList}/>
-        <div className="info">
+        <div className='info'>
           <About aboutImgList={this.state.aboutImgList} />
           <Skills  frontEndList={this.state.frontEndList} backEndList={this.state.backEndList} toolsList={this.state.toolsList} otherList={this.state.otherList} frontDes={this.state.frontDes} backDes={this.state.backDes} toolDes={this.state.toolDes} otherDes={this.state.otherDes}/>
           <Recent />
           <Experience jobList={this.state.jobList} jobDes={this.state.jobDes} jobDates={this.state.jobDates}/>
           <Education iconList={this.state.iconList}/>
+        </div>
+        <div className='footer'>
+          <div className='back-to-top'>
+            <a href='http://localhost:3000/#'>Back to Top!</a>
+          </div>
+          <div className='bottom-panel'>
+            <div className='project-link'>
+              <span className='link-text'>Constructed Out of Pure React.js</span>
+              <div className='footer-button'>
+                <a href='https://github.com/alexcravalho/portfolio'>
+                  <FontAwesomeIcon icon={this.state.iconList[2]}/>
+                </a>
+              </div>
+            </div>
+            <div className='like-page-text'>Like This Page?</div>
+            <div className='footer-icon-holder'>
+              {this.state.homeList.map((icon, idx) =>(
+                <span className='icon-button' key={idx}>
+                  <FontAwesomeIcon icon={this.state.iconList[idx]}/>
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     );
