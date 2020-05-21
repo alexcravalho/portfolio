@@ -12,7 +12,7 @@ const Home = (props) => (
     <div className='position'>Software Engineer</div>
     <div className='home-buttons-container'>
       {props.homeList.map((text, idx) => (
-        <a href={props.hrefList[idx]} key={idx}>
+        <a href={props.hrefList[idx]} key={idx} target='_blank' rel='noopener noreferrer'>
           <div className='home-button'>
             <FontAwesomeIcon style={FontAwesomeStyle} icon={props.iconList[idx]}/>
             <div className='home-button-text'>{text}</div>
