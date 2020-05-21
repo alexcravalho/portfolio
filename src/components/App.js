@@ -31,7 +31,7 @@ class App extends React.Component {
         'https://www.linkedin.com/in/alexcravalho',
         'https://github.com/alexcravalho',
         'tel:+15305596101',
-        'mailto:a.d.cravalho@gmail.com?subject=Connect%20with%20Alex%20Cravalho&body=Hello%20Alex&#44%0D%0AI%20found%20your%20email%20on%20your%20website%20and%20want%20to%20connect!'
+        "mailto:a.d.cravalho@gmail.com?subject=Connect%20with%20Alex%20Cravalho&body=Hello%20Alex&#44%0D%0AI%20found%20your%20email%20on%20your%20website%20and%20want%20to%20connect!"
       ],
       iconList: [
         faFileDownload,
@@ -164,7 +164,7 @@ class App extends React.Component {
             <div className='project-link'>
               <span className='link-text'>Constructed Out of Pure React.js</span>
               <div className='footer-button'>
-                <a href='https://github.com/alexcravalho/portfolio'>
+                <a href='https://github.com/alexcravalho/portfolio' target='_blank' rel='noopener noreferrer'>
                   <FontAwesomeIcon icon={this.state.iconList[2]}/>
                 </a>
               </div>
@@ -172,9 +172,11 @@ class App extends React.Component {
             <div className='like-page-text'>Like This Page?</div>
             <div className='footer-icon-holder'>
               {this.state.homeList.map((icon, idx) =>(
-                <span className='icon-button' key={idx}>
-                  <FontAwesomeIcon icon={this.state.iconList[idx]}/>
-                </span>
+                <a href={this.state.hrefList[idx]} target='_blank' rel='noopener noreferrer' key={idx}>
+                  <span className='icon-button'>
+                    <FontAwesomeIcon icon={this.state.iconList[idx]}/>
+                  </span>
+                </a>
               ))}
             </div>
           </div>
