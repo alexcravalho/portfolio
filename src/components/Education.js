@@ -24,7 +24,7 @@ class Education extends React.Component {
       <div className='dropdown-container'>
 
         {this.state.hrInfo && <div className='dropdown-grey' onClick={() => {this.handleClick('hrInfo')}}>
-          <span>Hack Reactor, Advanced Software Engineering Immersive</span>
+          <span>Hack Reactor, Software Engineering Immersive</span>
           <span className='dropdown-date-grey'>2019</span>
           <span className='dropdown-symbol'>
             <FontAwesomeIcon icon={this.props.iconList[5]}/>
@@ -32,7 +32,7 @@ class Education extends React.Component {
         </div>}
 
         {!this.state.hrInfo && <div className='dropdown-green' onClick={() => {this.handleClick('hrInfo')}}>
-          <span>Hack Reactor, Advanced Software Engineering Immersive</span>
+          <span>Hack Reactor, Software Engineering Immersive</span>
           <span className='dropdown-date-white'>2019</span>
           <span className='dropdown-symbol'>
             <FontAwesomeIcon icon={this.props.iconList[6]}/>
@@ -40,7 +40,7 @@ class Education extends React.Component {
         </div>}
 
         {!this.state.hrInfo && <div className='invisible-dropdown'>
-            <div className='invisible-dropdown-title'>Full Stack JavaScript 18 Week Program</div>
+            <div className='invisible-dropdown-title'>Advanced Full Stack JavaScript Course, 18 Weeks</div>
             <div className='invisible-dropdown-text'>
               lorem ipsum.....
             </div>
