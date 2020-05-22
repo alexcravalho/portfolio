@@ -143,6 +143,8 @@ class App extends React.Component {
         '2011 - 2013'
       ],
       recentLinks: [
+        'https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/GreenPDFdemo.gif',
+        'https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/Edwards501-John-01-01-2020.pdf',
         'https://github.com/alexcravalho/GreenPDFInternal',
         'https://github.com/alexcravalho/CrashStats',
         'https://github.com/JASTdance/related-tracks'
