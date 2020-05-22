@@ -9,7 +9,7 @@ const Footer = (props) => (
     </div>
     <div className='bottom-panel'>
       <div className='project-link'>
-        <span className='link-text'>Constructed Out of Pure React.js</span>
+        <span className='link-text'>Constructed with React.js</span>
         <div className='footer-button'>
           <a href='https://github.com/alexcravalho/portfolio' target='_blank' rel='noopener noreferrer'>
             <FontAwesomeIcon icon={props.iconList[2]}/>
