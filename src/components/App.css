@@ -34,8 +34,6 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 15vh 3em 0vh 3em;
-  /* margin-left: 3em;
-  margin-right: 3em; */
 }
 
 .home-button {
@@ -46,6 +44,11 @@
   margin-top: 0vh;
   padding: 7px;
   font-weight: 800;
+  transition: .3s;
+}
+
+.home-button:hover {
+  color: rgb(43, 102, 44);
 }
 
 a {
@@ -67,7 +70,6 @@ a {
 .position {
   font-size: 4vw;
   margin: 8vh;
-  /* margin-bottom: 15vh; */
   line-height: 8vh;
   font-weight: 500;
   color: rgb(43, 102, 44);
@@ -218,6 +220,13 @@ a {
 .button {
   font-size: 18px;
   margin: 15px 45px 0px 45px;
+  transition: .3s;
+}
+
+.button:hover {
+  color: black;
+  background-color: rgb(198, 198, 198);
+  box-shadow: transparent;
 }
 
 .dropdown-container {
