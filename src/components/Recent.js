@@ -32,8 +32,10 @@ const Recent = (props) => (
           <div className="recent-skills"></div>
           <div className="recent-description">Love Hockey? I do too! I created this application for sports fanatics who want an edge in their Fantasy Hockey season. Want to know if a particular fantasy trade is worth it? This app can evaluate a particular player trade based on real game statistics from the NHL public API data. It also allows you to input your own metrics for each category, which varies across fantasy leagues.</div>
           <div className="recent-button-container">
-            <div className='button'>Demo</div>
             <a className='button' href={props.recentLinks[3]} target='_blank' rel='noopener noreferrer'>
+              <div>Demo</div>
+            </a>
+            <a className='button' href={props.recentLinks[4]} target='_blank' rel='noopener noreferrer'>
               <div>Github</div>
             </a>
           </div>
@@ -46,8 +48,10 @@ const Recent = (props) => (
           <div className="recent-skills">React | JavaScript | Express | Node | PostgreSQL | Cassandra | Nginx | Docker | Loader.io | New Relic</div>
           <div className="recent-description">Love Pandora, Spotify, or Soundcloud? I do too, so I couldn't wait to help contribute to an app for music-lovers! I worked on a team to build out the back end of this application to scale for high-web traffic. I completely replaced and scaled the back-end of the Related Tracks component to handle 55 million+ records. I improved efficiency by optimizing database query speed from 3 seconds to less than 25 milliseconds. I designed and engineered the system architecture to include multiple servers and load balancer, increasing throughput by 33%. </div>
           <div className="recent-button-container">
-            <div className='button'>Demo</div>
-            <a className='button' href={props.recentLinks[4]} target='_blank' rel='noopener noreferrer'>
+            <a className='button' href={props.recentLinks[5]} target='_blank' rel='noopener noreferrer'>
+              <div>Demo</div>
+            </a>
+            <a className='button' href={props.recentLinks[6]} target='_blank' rel='noopener noreferrer'>
               <div>Github</div>
             </a>
           </div>
