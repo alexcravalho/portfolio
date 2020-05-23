@@ -146,7 +146,9 @@ class App extends React.Component {
         'https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/GreenPDFdemo.gif',
         'https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/Edwards501-John-01-01-2020.pdf',
         'https://github.com/alexcravalho/GreenPDFInternal',
+        'https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/CrashStatsdemo.gif',
         'https://github.com/alexcravalho/CrashStats',
+        'https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/JastDancedemo.gif',
         'https://github.com/JASTdance/related-tracks'
       ]
     }
