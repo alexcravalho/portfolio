@@ -24,7 +24,7 @@ class Education extends React.Component {
       <div className='dropdown-container'>
 
         {this.state.hrInfo && <div className='dropdown-grey' onClick={() => {this.handleClick('hrInfo')}}>
-          <span>Hack Reactor, Software Engineering Immersive</span>
+          <span className='dropdown-title'>Hack Reactor, Software Engineering Immersive</span>
           <span className='dropdown-date-grey'>2019</span>
           <span className='dropdown-symbol'>
             <FontAwesomeIcon icon={this.props.iconList[5]}/>
@@ -32,7 +32,7 @@ class Education extends React.Component {
         </div>}
 
         {!this.state.hrInfo && <div className='dropdown-green' onClick={() => {this.handleClick('hrInfo')}}>
-          <span>Hack Reactor, Software Engineering Immersive</span>
+          <span className='dropdown-title'>Hack Reactor, Software Engineering Immersive</span>
           <span className='dropdown-date-white'>2019</span>
           <span className='dropdown-symbol'>
             <FontAwesomeIcon icon={this.props.iconList[6]}/>
@@ -47,7 +47,7 @@ class Education extends React.Component {
           </div>}
 
         {this.state.scInfo && <div className='dropdown-grey' onClick={() => {this.handleClick('scInfo')}} >
-          <span>UC Santa Cruz, Bachelor of Arts</span>
+          <span className='dropdown-title'>UC Santa Cruz, Bachelor of Arts</span>
           <span className='dropdown-date-grey'>2011</span>
           <span className='dropdown-symbol'>
             <FontAwesomeIcon icon={this.props.iconList[5]}/>
@@ -55,7 +55,7 @@ class Education extends React.Component {
         </div>}
 
         {!this.state.scInfo && <div className='dropdown-green' onClick={() => {this.handleClick('scInfo')}} >
-          <span>UC Santa Cruz, Bachelor of Arts</span>
+          <span className='dropdown-title'>UC Santa Cruz, Bachelor of Arts</span>
           <span className='dropdown-date-white'>2011</span>
           <span className='dropdown-symbol'>
             <FontAwesomeIcon icon={this.props.iconList[6]}/>
