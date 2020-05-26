@@ -42,7 +42,7 @@ class Education extends React.Component {
         {!this.state.hrInfo && <div className='invisible-dropdown'>
             <div className='invisible-dropdown-title'>Advanced Full Stack JavaScript Course, 18 Weeks</div>
             <div className='invisible-dropdown-text'>
-              lorem ipsum.....
+              This full time program trained me in the latest industry technologies and standards for Software Engineering and gave me real experience practicing that knowledge over 1000 hours of solo and paired programming. To gain entrance to the program, students must demonstrate a strong proficiency in JavaScript, problem solving, and autonomous learning. Candidates for the course must also pass a selective interview process and complete over 80 hours of pre-course work. The introductory section (weeks 1-6, 40 hrs/week) focused on paired sprints to develop Computer Science fundamentals, such as functional programming, debugging, and recursion. The junior section (weeks 7-11, 60 hrs/week) involved project based sprints, learning new technologies and programming across the full stack with JavaScript. I learned to interact with API's, query datasets from common databases, build stateful and functional components in React, and send data from back end to front end with server requests. In the senior phase (weeks 12-18, 60 hrs/week) I worked on two Agile engineering teams with daily standups, code reviews and version control through github, ground-up system design and implementation, as well as containerization and deployment techniques. Throughout the course I built my own applications to test my knowledge and reinforce the techniques learned throughout the program.
             </div>
           </div>}
 
