@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'Anurati';
+  src: local('Anurati'), url(../fonts/Anurati-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Ailerons';
+  src: local('Ailerons'), url(../fonts/Ailerons-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Exan';
+  src: local('Exan'), url(../fonts/Exan-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Simple';
+  src: local('Simple'), url(../fonts/Simple-Regular.ttf) format('truetype');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Simple';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -57,17 +85,21 @@ a {
 }
 
 .home-button-text {
+  line-height: 1.5;
   margin: 0.35em 0em 0.35em 0em;
 }
 
 .name {
+  font-family: 'Anurati';
   font-size: 7.5vw;
   line-height: 10vh;
   margin-top: 13vh;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
 .position {
+  font-family: 'Exan';
   font-size: 4vw;
   margin: 8vh;
   line-height: 8vh;
@@ -78,8 +110,9 @@ a {
 }
 
 .heading {
-  font-size: 45px;
+  font-size: 55px;
   margin-bottom: 20px;
+  font-family: 'Ailerons';
 }
 
 .Skills,
@@ -96,6 +129,7 @@ a {
 .about-text {
   font-size: 18px;
   line-height: 28px;
+  margin-bottom: 2em;
 }
 
 .about-pic-row {
@@ -122,6 +156,7 @@ a {
   position: relative;
   margin: 8px 8px 16px 0px;
   padding: 8px;
+  padding-top: 13px;
   font-size: 22px;
   color: #fff;
   border-radius: 4px;
@@ -252,6 +287,10 @@ a {
   cursor: pointer;
 }
 
+.dropdown-title {
+  font-weight: 600;
+}
+
 .dropdown-symbol {
   float: right;
   font-size: 1.5rem;
@@ -279,6 +318,7 @@ a {
 }
 
 .invisible-dropdown-title {
+  font-weight: 600;
   font-size: 22px;
   margin-bottom: 10px;
 }
@@ -294,7 +334,7 @@ a {
   border: 1px solid rgb(181, 181, 181);
   padding: 25px;
   box-shadow: 1px 1px 3px #1a1d1e;
-  margin: 15px 0px 15px 0px;
+  margin: 20px 0px 20px 0px;
 }
 
 .job-title {
