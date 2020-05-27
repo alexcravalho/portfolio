@@ -17,11 +17,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Alex Cravalho - [alexcravalho](https://github.com/alexcravalho)
 
 ### Sections
-1. Home - My Contct Info and Various Links
-2. About - My Story
-3. Skills - Hover for Additional Info
-4. Applications - Watch a Short Demo or See the Github Repo
-5. Education - Info About My Background and Academic Knowledge
+* Home - My Contct Info and Various Links
+* About - My Story
+* Skills - Hover for Additional Info
+* Applications - Watch a Short Demo or See the Github Repo
+* Education - Info About My Background and Academic Knowledge
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/alexcravalho/portfolio/blob/master/LICENSE) file for details
