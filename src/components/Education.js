@@ -65,7 +65,7 @@ class Education extends React.Component {
         {!this.state.scInfo && <div className='invisible-dropdown'>
             <div className='invisible-dropdown-title'>Major in Business Management Economics</div>
             <div className='invisible-dropdown-text'>
-              lorem ipsum.....
+              My journey to becoming a software engineer was a long journey. In college, I thought I wanted to become a dentist and started on the pre-biology track full of math and science courses. Eventually, I found that I was much more interested in Business Management, investing, and startups. I saw that startups had the potential to change the world with even a simple idea. Pursuing this interest, I studied micro and macro economics with additional coursework in business strategy, so that I could understand why and how companies make business decisions. This knowledge has prepared me to enter the engineering field, in that I am able to understand the costs, benefits, and tradeoffs of company decisions and how those decisions can impact the development process.
             </div>
           </div>}
 
