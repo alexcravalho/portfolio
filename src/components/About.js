@@ -15,7 +15,7 @@ const About = (props) => (
     </div>
     <div className='about-pic-row'>
       {props.aboutImgList.map((pic, idx) => (
-        <img className='about-img' alt={pic} key={idx} src={`https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/${pic}.jpg`}></img>
+        <img className='about-img' alt={pic} key={idx} src={`https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/${pic}.webp`}></img>
       ))}
     </div>
   </div>
