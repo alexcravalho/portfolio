@@ -7,13 +7,9 @@ const About = (props) => (
     <div className='about-text'>
       Hi, I'm Alex! I'm a passionate problem solver and creative, out-of-the box, thinker. I am naturally curious and love breaking things down into their respective parts to figure out how they work. I love leveraging technlogy against modern problems to improve the quality of people's lives.
     </div>
-    <br/>
-    <br/>
     <div className='about-text'>
       Right now, I am working as a freelance Software Engineer taking up contracts while I look for long term positions in Seattle. Companies or employers, please reach out to me about employment oppunities.
     </div>
-    <br/>
-    <br/>
     <div className='about-text'>
       When I'm not programming, I love to travel, explore the outdoors, play my ukelele, and play just about any kind of game.
     </div>
