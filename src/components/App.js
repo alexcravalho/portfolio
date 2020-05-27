@@ -45,10 +45,7 @@ class App extends React.Component {
       aboutImgList: [
         'tiger',
         'phil',
-        'canoe',
-        'ukelele',
-        'catan',
-        'ps4'
+        'canoe'
       ],
       frontEndList: [
         'TypeScript',
