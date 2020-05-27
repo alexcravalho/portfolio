@@ -6,7 +6,7 @@ const Recent = (props) => (
     <div className='heading'>Recent Projects</div>
     <div className="application-list">
       <div className="application-item">
-        <img className='recent-img' src='/images/green.webp' alt='green'></img>
+        <img className='recent-img' src='https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/green.webp' alt='green'></img>
         <div className="recent-text-container">
           <div className="recent-title">GreenPDF Internal Tool</div>
           <div className="recent-skills">React | TypeScript | Express | Node | Material-UI | Puppeteer</div>
@@ -25,7 +25,7 @@ const Recent = (props) => (
         </div>
       </div>
       <div className="application-item">
-      <img className='recent-img' src='/images/hockey1.webp' alt='hockey'></img>
+      <img className='recent-img' src='https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/hockey.webp' alt='hockey'></img>
         <div className="recent-text-container">
           <div className="recent-title">Crash Stats</div>
           <div className="recent-skills">React | React Hooks | JavaScript | Express | Node | MongoDB | AWS | Docker</div>
@@ -42,9 +42,9 @@ const Recent = (props) => (
         </div>
       </div>
       <div className="application-item">
-        <img className='recent-img' src='/images/jastdance.webp' alt='jastdance'></img>
+        <img className='recent-img' src='https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/soundwave.webp' alt='soundwave'></img>
         <div className="recent-text-container">
-          <div className="recent-title">JASTDance</div>
+          <div className="recent-title">Soundwave Music</div>
           <div className="recent-skills">React | JavaScript | Express | Node | PostgreSQL | Cassandra | Nginx | Docker | Loader.io | New Relic</div>
           <div className="recent-description">I enjoy listening to music on Pandora, Spotify, and Soundcloud, so I couldn't wait to help contribute to an app for music-lovers! I worked on a team to build out the back end of this application to scale for high-web traffic. I completely replaced and scaled the back-end of the Related Tracks component to handle 55 million+ records. I improved efficiency by optimizing database query speed from 3 seconds to less than 25 milliseconds. I designed and engineered the system architecture to include multiple servers and load balancer, increasing throughput by 33%. </div>
           <div className="recent-button-container">
