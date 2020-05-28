@@ -147,6 +147,11 @@ class App extends React.Component {
         'https://github.com/alexcravalho/CrashStats',
         'https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/Soundwavedemo.gif',
         'https://github.com/JASTdance/related-tracks'
+      ],
+      btnText: [
+        'Demo',
+        'PDF',
+        'Github'
       ]
     }
 
@@ -158,7 +163,7 @@ class App extends React.Component {
         <div className='info'>
           <About aboutImgList={this.state.aboutImgList} />
           <Skills  frontEndList={this.state.frontEndList} backEndList={this.state.backEndList} toolsList={this.state.toolsList} otherList={this.state.otherList} frontDes={this.state.frontDes} backDes={this.state.backDes} toolDes={this.state.toolDes} otherDes={this.state.otherDes}/>
-          <Recent recentLinks={this.state.recentLinks}/>
+          <Recent recentLinks={this.state.recentLinks} btnText={this.state.btnText}/>
           <Experience jobList={this.state.jobList} jobDes={this.state.jobDes} jobDates={this.state.jobDates}/>
           <Education iconList={this.state.iconList}/>
         </div>
