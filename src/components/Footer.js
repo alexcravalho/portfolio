@@ -6,7 +6,7 @@ const Footer = (props) => (
   <div className='footer'>
     <div className='back-to-top'>
       {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-      <a href='#' alt='back-to-top'>Back to Top!</a>
+      <a className='btn' href='#' alt='back-to-top'>Back to Top!</a>
     </div>
     <div className='bottom-panel'>
       <div className='project-link'>
