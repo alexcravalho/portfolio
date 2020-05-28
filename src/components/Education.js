@@ -2,7 +2,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './App.css';
 
-
 class Education extends React.Component {
   constructor(props) {
     super(props)
@@ -31,7 +30,7 @@ class Education extends React.Component {
           </span>
         </div>}
 
-        {!this.state.hrInfo && <div className='dropdown-green' onClick={() => {this.handleClick('hrInfo')}}>
+        {!this.state.hrInfo && <div className='dropdown-blue' onClick={() => {this.handleClick('hrInfo')}}>
           <span className='dropdown-title'>Hack Reactor, Software Engineering Immersive</span>
           <span className='dropdown-date-white'>2019</span>
           <span className='dropdown-symbol'>
@@ -54,7 +53,7 @@ class Education extends React.Component {
           </span>
         </div>}
 
-        {!this.state.scInfo && <div className='dropdown-green' onClick={() => {this.handleClick('scInfo')}} >
+        {!this.state.scInfo && <div className='dropdown-blue' onClick={() => {this.handleClick('scInfo')}} >
           <span className='dropdown-title'>UC Santa Cruz, Bachelor of Arts</span>
           <span className='dropdown-date-white'>2011</span>
           <span className='dropdown-symbol'>
