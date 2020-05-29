@@ -14,16 +14,28 @@
   font-family: 'Simple';
   src: local('Simple'), url(../fonts/Simple-Regular.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Michroma';
+  src: local('Michroma'), url(../fonts/Michroma-Regular.ttf) format('truetype');
+}
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
+  background-image: url(https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/grey-background.webp);
+  color: #fff;
   margin: 0;
   font-family: 'Simple';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --bg-color: #031321;
+  --primary-color: #2196f3;
+  --secondary-color: #255784;
 }
 
 .App {
@@ -44,11 +56,11 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/Isalo.webp);
+  background-image: url(https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/FutureCityscape.webp);
   color: white;
   font-weight: 600;
   letter-spacing: 0.2em;
-  text-shadow: 2px 2px 10px #1a1d1e;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .info {
@@ -76,7 +88,12 @@ body {
 }
 
 .home-button:hover {
-  color: rgb(43, 102, 44);
+    color: #9fc6e6;
+    text-shadow:
+      0 0 5px #58adf3,
+      0 0 10px #58adf3,
+      0 0 30px var(--primary-color),
+      0 0 60px var(--primary-color);
 }
 
 a {
@@ -96,6 +113,12 @@ a {
   margin-top: 13vh;
   font-weight: 500;
   text-transform: uppercase;
+  color: #ffd8d8;
+  text-shadow:
+    0 0 5px #f25757,
+    0 0 10px #f25757,
+    0 0 30px #e50b0b,
+    0 0 60px #e50b0b;
 }
 
 .position {
@@ -104,15 +127,25 @@ a {
   margin: 8vh;
   line-height: 8vh;
   font-weight: 500;
-  color: rgb(43, 102, 44);
   text-transform: uppercase;
-  text-shadow: 1px 1px 3px #1a1d1e;
+  color: #9fc6e6;
+  text-shadow:
+    0 0 5px #58adf3,
+    0 0 10px #58adf3,
+    0 0 30px var(--primary-color),
+    0 0 60px var(--primary-color);
 }
 
 .heading {
   font-size: 55px;
   margin-bottom: 20px;
   font-family: 'Ailerons';
+  color: #9fc6e6;
+  text-shadow:
+    0 0 5px #58adf3,
+    0 0 10px #58adf3,
+    0 0 30px var(--primary-color),
+    0 0 60px var(--primary-color);
 }
 
 .Skills,
@@ -142,7 +175,7 @@ a {
 .about-img {
   width: 250px;
   margin: 1em 1em 1em 1em;
-  box-shadow: 1px 1px 3px #1A1D1E;
+  box-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .skill-container {
@@ -151,18 +184,23 @@ a {
   flex-wrap: wrap;
 }
 
-.skill,
-.button {
+.skill {
   position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin: 8px 8px 16px 0px;
-  padding: 8px;
+  padding: .5em;
   padding-top: 13px;
-  font-size: 22px;
-  color: #fff;
+  box-sizing: border-box;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.4s;
   border-radius: 4px;
-  background-color: #508853;
-  font-weight: 300;
-  box-shadow: 1px 1px 3px #1a1d1e;
+  border: var(--primary-color) solid 1px;
 }
 
 .skill-hover-text {
@@ -181,6 +219,8 @@ a {
   margin-left: -60px;
   opacity: 0;
   transition: opacity 0.3s;
+  text-transform: none;
+  letter-spacing: 0em;
 }
 
 .skill-hover-text::after {
@@ -202,6 +242,9 @@ a {
 .sub-heading {
   font-size: 24px;
   font-weight: 700;
+  font-family: 'Michroma';
+  letter-spacing: .2em;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .application-list {
@@ -216,7 +259,7 @@ a {
 }
 
 .recent-img {
-  box-shadow: 1px 1px 3px #1a1d1e;
+  box-shadow: 0.1em 0.1em 0.2em black;
   width: 320px !important;
   height: 280px !important;
 }
@@ -231,6 +274,11 @@ a {
 .recent-title {
   font-size: 32px;
   margin-bottom: 8px;
+  font-family: 'Michroma';
+  letter-spacing: .1em;
+  padding-left: 10px;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .recent-skills {
@@ -252,18 +300,6 @@ a {
   justify-content: center;
 }
 
-.button {
-  font-size: 18px;
-  margin: 15px 45px 0px 45px;
-  transition: .3s;
-}
-
-.button:hover {
-  color: black;
-  background-color: rgb(198, 198, 198);
-  box-shadow: transparent;
-}
-
 .dropdown-container {
   font-size: 22px;
 }
@@ -277,18 +313,26 @@ a {
   box-shadow: 1px 1px 3px #1a1d1e;
   cursor: pointer;
 }
-.dropdown-green {
-  background-color: #508853;
-  color: #fff;
-  border: 1px solid #508853;
+.dropdown-blue {
+  color: white;
+  border: 1px solid var(--primary-color);
   padding: 15px;
   margin-top: 5px;
   box-shadow: 1px 1px 3px #1a1d1e;
   cursor: pointer;
+  background: var(--primary-color);
+  box-shadow:
+    0 0 5px var(--primary-color),
+    0 0 10px var(--primary-color),
+    0 0 30px var(--primary-color),
+    0 0 60px var(--primary-color);
 }
 
 .dropdown-title {
   font-weight: 600;
+  font-family: 'Michroma';
+  font-size: 20px;
+  letter-spacing: .05em;
 }
 
 .dropdown-symbol {
@@ -319,8 +363,11 @@ a {
 
 .invisible-dropdown-title {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 10px;
+  font-family: 'Michroma';
+  letter-spacing: .05em;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .invisible-dropdown-text {
@@ -340,6 +387,7 @@ a {
 .job-title {
   font-size: 23px;
   font-weight: bold;
+  font-family: 'Michroma';
 }
 
 .job-text {
@@ -368,7 +416,7 @@ a {
   margin-top: 20px;
   font-size: 18px;
   color: rgb(203, 203, 203);;
-  background-color: #508853;
+  background-image: linear-gradient(to top, #242424 0%, #303030 100%);
 }
 
 .project-link {
@@ -388,7 +436,7 @@ a {
   font-weight: 800;
 }
 .footer-button:hover {
-  color: #fff;
+  color: var(--primary-color);
 }
 .like-page-text {
   font-size: 3vw;
@@ -408,5 +456,33 @@ a {
   margin-right: 30px;
 }
 .icon-button:hover {
-  color: white;
+  color: var(--primary-color);
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 45px 0px 45px;
+  padding: .5em;
+  padding-top: 13px;
+  box-sizing: border-box;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.4s;
+  border-radius: 4px;
+  border: var(--primary-color) solid 1px;
+}
+
+.btn:hover {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  box-shadow:
+    0 0 5px var(--primary-color),
+    0 0 10px var(--primary-color),
+    0 0 30px var(--primary-color),
+    0 0 60px var(--primary-color);
 }
