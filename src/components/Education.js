@@ -23,19 +23,19 @@ class Education extends React.Component {
       <div className='dropdown-container'>
 
         {this.state.hrInfo && <div className='dropdown-grey' onClick={() => {this.handleClick('hrInfo')}}>
-          <span className='dropdown-title'>Hack Reactor, Software Engineering Immersive</span>
-          <span className='dropdown-date-grey'>2019</span>
-          <span className='dropdown-symbol'>
+          <div className='dropdown-title'>Hack Reactor, Software Engineering Immersive</div>
+          <div className='dropdown-date-grey'>2019</div>
+          <div className='dropdown-symbol'>
             <FontAwesomeIcon icon={this.props.iconList[5]}/>
-          </span>
+          </div>
         </div>}
 
         {!this.state.hrInfo && <div className='dropdown-blue' onClick={() => {this.handleClick('hrInfo')}}>
-          <span className='dropdown-title'>Hack Reactor, Software Engineering Immersive</span>
-          <span className='dropdown-date-white'>2019</span>
-          <span className='dropdown-symbol'>
+          <div className='dropdown-title'>Hack Reactor, Software Engineering Immersive</div>
+          <div className='dropdown-date-white'>2019</div>
+          <div className='dropdown-symbol'>
             <FontAwesomeIcon icon={this.props.iconList[6]}/>
-          </span>
+          </div>
         </div>}
 
         {!this.state.hrInfo && <div className='invisible-dropdown'>
@@ -46,19 +46,19 @@ class Education extends React.Component {
           </div>}
 
         {this.state.scInfo && <div className='dropdown-grey' onClick={() => {this.handleClick('scInfo')}} >
-          <span className='dropdown-title'>UC Santa Cruz, Bachelor of Arts</span>
-          <span className='dropdown-date-grey'>2011</span>
-          <span className='dropdown-symbol'>
+          <div className='dropdown-title'>UC Santa Cruz, Bachelor of Arts</div>
+          <div className='dropdown-date-grey'>2011</div>
+          <div className='dropdown-symbol'>
             <FontAwesomeIcon icon={this.props.iconList[5]}/>
-          </span>
+          </div>
         </div>}
 
         {!this.state.scInfo && <div className='dropdown-blue' onClick={() => {this.handleClick('scInfo')}} >
-          <span className='dropdown-title'>UC Santa Cruz, Bachelor of Arts</span>
-          <span className='dropdown-date-white'>2011</span>
-          <span className='dropdown-symbol'>
+          <div className='dropdown-title'>UC Santa Cruz, Bachelor of Arts</div>
+          <div className='dropdown-date-white'>2011</div>
+          <div className='dropdown-symbol'>
             <FontAwesomeIcon icon={this.props.iconList[6]}/>
-          </span>
+          </div>
         </div>}
 
         {!this.state.scInfo && <div className='invisible-dropdown'>
