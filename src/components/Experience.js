@@ -8,8 +8,8 @@ const Experience = (props) => (
       {props.jobList.map((job, idx) => (
         <div className='job-description' key={idx}>
           <div className='job-header'>
-            <span className='job-title'>{job}</span>
-            <span className='job-date'>{props.jobDates[idx]}</span>
+            <div className='job-title'>{job}</div>
+            <div className='job-date'>{props.jobDates[idx]}</div>
           </div>
           <div className='job-text'>{props.jobDes[idx]}</div>
         </div>
