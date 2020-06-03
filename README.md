@@ -2,7 +2,7 @@
 
 ![Image of Landing Page](https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/PortfolioMain.webp)
 
-> A website about me, my expirence, skills, and story. https://alexcravalho.github.io/portfolio
+> A website about me, my experience, skills, and story. https://alexcravalho.github.io/portfolio
 
 ## Deployment
 Deployed with: [Github Pages](https://pages.github.com/)
@@ -19,8 +19,8 @@ Deployed with: [Github Pages](https://pages.github.com/)
 **Alex Cravalho** - [alexcravalho](https://github.com/alexcravalho)
 
 ## Sections
-* Home - My Contct Info and Various Links
-* About - A Litte Intro to Who I Am
+* Home - My Contact Info and Various Links
+* About - A Little Intro to Who I Am
 * Skills - Hover for Additional Info
 * Applications - Watch a Short Demo or See the Github Repo
 * Education - Info About My Background and Academic Knowledge
