@@ -31,7 +31,7 @@ class App extends React.Component {
         'https://www.linkedin.com/in/alexcravalho',
         'https://github.com/alexcravalho',
         'tel:+15305596101',
-        "mailto:a.d.cravalho@gmail.com?subject=Connect%20with%20Alex%20Cravalho&body=Hello%20Alex&#44%0D%0AI%20found%20your%20email%20on%20your%20website%20and%20want%20to%20connect!"
+        "mailto:a.d.cravalho@gmail.com?subject=Connect%20with%20Alex%20Cravalho&body=Hello%20Alex,%0D%0A%0D%0AI%20found%20your%20email%20on%20your%20website%20and%20want%20to%20connect!"
       ],
       iconList: [
         faFileDownload,
@@ -89,7 +89,7 @@ class App extends React.Component {
         "JavaScript is my main programming language and where I wrote my first 'Hello World.'",
         'React is the modern framework I prefer to use when building applications. This site was built with React!',
         'React Hooks uses only functional components, which streamlines React applications and makes them more understandable and readable.',
-        'Material-UI is a package with pre-built and thorougly tested user interface components, that make web development faster and easier.',
+        'Material-UI is a package with pre-built and thoroughly tested user interface components, that make web development faster and easier.',
         'The very first application I built used only jQuery, vanilla JS, and CSS.',
         'This is the foundation of all modern web applications.',
         'I style pixel-perfect user interfaces with a deep knowledge of CSS'
@@ -117,7 +117,7 @@ class App extends React.Component {
       ],
       otherDes: [
         "This architectural style is what I use for all my API's when I build applications with a back-end.",
-        'I have exprience with Agile practices including test-driven development, executing sprints, pair programing, and cross-team coordination.',
+        'I have experience with Agile practices including test-driven development, executing sprints, pair programing, and cross-team coordination.',
         'I have experience developing my own testing suites for various projects.',
         'Model-View-Controller design pattern reinforces separation of concerns and good programming practices.'
       ],
@@ -127,7 +127,7 @@ class App extends React.Component {
         'Cedars-Sinai Medical Center'
       ],
       jobDes: [
-        "Hack Reactor is a full-time Software Engineering Immersive bootcamp covering over 1000 hours of practical hands-on experience in full-stack software engineering. The parent company, Galvanize Inc., hired me to work as part of the Hack Reactor Engineering team, that managed and mentored junior engineers on engineering principles. In that role, I performed code reviews for the junior engineers and gave them guidance on how to improve their code and problem solve across the full-stack. This mentorship included computer science fundamentals, best practices, front-end and back-end development, and also app deployment technologies (including AWS EC2, S3, Docker, and various load testing tools).",
+        "Hack Reactor is a full-time Software Engineering Immersive bootcamp covering over 1000 hours of practical hands-on experience in full-stack software engineering. The parent company, Galvanize Inc., hired me to work as part of the Hack Reactor Engineering team that managed and mentored junior engineers on engineering principles. In that role, I performed code reviews for the junior engineers and gave them guidance on how to improve their code and problem solve across the full-stack. This mentorship included computer science fundamentals, best practices, front-end and back-end development, and also app deployment technologies (including AWS EC2, S3, Docker, and various load testing tools).",
 
         "The United States Peace Corps is a U.S. governmental organization that provides aid to foreign countries. The Peace Corps mission is to promote world peace and friendship by helping interested countries meet their needs for trained men and women. To achieve this goal, I worked with the Peace Corps as a secondary English Language Instructor in Madagascar, Africa. Going beyond the duties of a teacher, I developed a number of projects to benefit the native community where I lived, learned the native language, and learned the local culture while residing in the country for over two years. ",
 
