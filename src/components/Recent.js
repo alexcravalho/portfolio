@@ -37,7 +37,7 @@ const Recent = (props) => (
         <div className="recent-text-container">
           <div className="recent-title">Soundwave Music</div>
           <div className="recent-skills">React | JavaScript | Express | Node | PostgreSQL | Cassandra | Nginx | Docker | Loader.io | New Relic</div>
-          <div className="recent-description">I enjoy listening to music on Pandora, Spotify, and Soundcloud, so I couldn't wait to help contribute to an app for music-lovers! I worked on a team to build out the back end of this application to scale for high-web traffic. I completely replaced and scaled the back-end of the Related Tracks component to handle 55 million+ records. I improved efficiency by optimizing database query speed from 3 seconds to less than 25 milliseconds. I designed and engineered the system architecture to include multiple servers and load balancer, increasing throughput by 33%. </div>
+          <div className="recent-description">I enjoy listening to music on Pandora, Spotify, and Soundcloud, so I couldn't wait to help contribute to an app for music-lovers! I worked on a team to build out the back end of this application to scale for high-web traffic. I completely replaced and scaled the back-end of the Related Tracks component to handle over 55 million records. I improved efficiency by optimizing database query speed from 3 seconds to less than 25 milliseconds. I designed and engineered the system architecture to include multiple servers and load balancer, increasing throughput by 33%.</div>
           <div className="recent-button-container">
             <NeonButton link={props.recentLinks[5]} text={props.btnText[0]} />
             <NeonButton link={props.recentLinks[6]} text={props.btnText[2]} />
