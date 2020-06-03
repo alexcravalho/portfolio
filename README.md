@@ -1,5 +1,7 @@
 # alexcravalho.github.io/portfolio
 
+![Image of Landing Page](https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/PortfolioMain.webp)
+
 > A website about me, my expirence, skills, and story. https://alexcravalho.github.io/portfolio
 
 ## Deployment
