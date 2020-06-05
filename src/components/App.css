@@ -122,7 +122,7 @@ a {
 }
 .heading {
   text-align: center;
-  font-size: 47px;
+  font-size: 3em;
   margin: 0em 0em .4em 0em;
   font-family: 'Ailerons';
   color: #9fc6e6;
@@ -142,7 +142,7 @@ a {
   margin: 1em;
 }
 .about-text {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
   margin-bottom: 2em;
 }
@@ -218,7 +218,7 @@ a {
   height: 0px !important;
 }
 .recent-title {
-  font-size: 28px;
+  font-size: 1.2em;
   margin-bottom: .6em;
   font-family: 'Michroma';
   letter-spacing: .1em;
@@ -232,7 +232,7 @@ a {
   line-height: 1.5;
 }
 .recent-description {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 30px;
   padding-left: 15px;
 }
@@ -475,8 +475,12 @@ a {
     font-size: 4vw;
     margin: 8vh;
   }
+  .about-pic-row {
+    flex-direction: column;
+    align-items: center;
+  }
   .about-img {
-    width: 21vw;
+    width: 60%;
   }
   .Home {
     padding-bottom: 3.7em;
@@ -493,11 +497,14 @@ a {
     font-weight: 800;
     padding: 7px;
   }
-  .About, .Skills, .Recent, .Education {
+  .About, .Skills, .Education {
     margin: 4em 12em 0em 12em;
   }
+  .Recent {
+    margin: 4em 3em 0em 3em;
+  }
   .heading {
-    font-size: 6vw;
+    font-size: 5.5vw;
     position: relative;
     left: -.15em;
   }
@@ -506,10 +513,6 @@ a {
     flex-direction: row;
     margin: 30px 0px 0px 0px;
   }
-  .recent-img {
-    width: 320px !important;
-    height: 280px !important;
-  }
   .recent-text-container {
     margin: 0em 0em 0em 1em;
   }
@@ -517,7 +520,7 @@ a {
     margin: 1em 0em 0em 0em;
   }
   .recent-title {
-    font-size: 32px;
+    font-size: 2.3vw;
   }
   .Experience {
     margin: 4em 10.5em 0em 10.5em;
@@ -577,5 +580,16 @@ a {
   .icon-button {
     font-size: 70px;
     margin: 0px 25px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .recent-img {
+    width: 320px !important;
+    height: 280px !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .Recent {
+    margin: 4em 12em 0em 12em;
   }
 }
