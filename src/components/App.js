@@ -86,40 +86,40 @@ class App extends React.Component {
       ],
       frontDes: [
         'Developers prefer TypeScript over JavaScript because of its static type checking and readability, so I thought it would be fun to learn and add to my repertoire. Check out my GreenPDF Internal Tool project!',
-        "JavaScript is my main programming language and where I wrote my first 'Hello World.'",
+        "JavaScript is my main programming language and where I wrote my first 'Hello World'",
         'React is the modern framework I prefer to use when building applications. This site was built with React!',
-        'React Hooks uses only functional components, which streamlines React applications and makes them more understandable and readable.',
-        'Material-UI is a package with pre-built and thoroughly tested user interface components, that make web development faster and easier.',
-        'The very first application I built used only jQuery, vanilla JS, and CSS.',
-        'This is the foundation of all modern web applications.',
+        'React Hooks uses only functional components, which streamlines React applications and makes them more understandable and readable',
+        'Material-UI is a package with pre-built and thoroughly tested user interface components, that make web development faster and easier',
+        'The very first application I built used only jQuery, vanilla JS, and CSS',
+        'This is the foundation of all modern web applications',
         'I style pixel-perfect user interfaces with a deep knowledge of CSS'
       ],
       backDes: [
-        "The 'N' and 'E' of the 'MERN' stack and my go-to for the back-end.",
-        'An exceptional NoSQL database that is flexible and easy to use.',
+        "The 'N' and 'E' of the 'MERN' stack and my go-to for the back-end",
+        'An exceptional NoSQL database that is flexible and easy to use',
         'A powerful object-relational database used by big companies like Apple',
         'Another good relational database option used by Netflix and GitHub',
-        'A powerhouse database known for its ability to handle large amounts of data and being highly scalable.'
+        'A powerhouse database known for its ability to handle large amounts of data and being highly scalable'
       ],
       toolDes: [
         'My preferred method of containerization for deployment',
-        'I have experience implementing Nginx as a load balancer to scale a service for high web traffic.',
+        'I have experience implementing Nginx as a load balancer to scale a service for high web traffic',
         'My favorite version control system that I use for most of my applications',
-        'An open-source load testing tool that makes performance testing easier.',
+        'An open-source load testing tool that makes performance testing easier',
         'A cloud based load and scalability testing service',
         'One of the best module bundlers that is widely used',
         'A JavaScript compiler that works well with both JavaScript and TypeScript',
         'A simple yet powerful combo for testing React components',
-        'Mocha is a JavaScript testing utility used in combination with Chai an assertion library for testing.',
-        'Eslint helps programmers follow best practices by identifying problematic code during the development process.',
-        'Trello is an easy to use collaboration tool that lets users organize projects on boards. This is very helpful in Kanban style workflow management.',
-        'Puppeteer is a Node.js library that provides high-level API control of headless Chrome browser.'
+        'Mocha is a JavaScript testing utility used in combination with Chai an assertion library for testing',
+        'Eslint helps programmers follow best practices by identifying problematic code during the development process',
+        'Trello is an easy to use collaboration tool that lets users organize projects on boards. This is very helpful in Kanban style workflow management',
+        'Puppeteer is a Node.js library that provides high-level API control of headless Chrome browser'
       ],
       otherDes: [
-        "This architectural style is what I use for all my API's when I build applications with a back-end.",
-        'I have experience with Agile practices including test-driven development, executing sprints, pair programing, and cross-team coordination.',
-        'I have experience developing my own testing suites for various projects.',
-        'Model-View-Controller design pattern reinforces separation of concerns and good programming practices.'
+        "This architectural style is what I use for all my API's when I build applications with a back-end",
+        'I have experience with Agile practices including test-driven development, executing sprints, pair programing, and cross-team coordination',
+        'I have experience developing my own testing suites for various projects',
+        'Model-View-Controller design pattern reinforces separation of concerns and good programming practices'
       ],
       jobList: [
         'Hack Reactor at Galvanize Inc.',
