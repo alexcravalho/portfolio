@@ -34,11 +34,11 @@ body {
   --primary-color: #2196f3;
   --secondary-color: #255784;
 }
-.App, .Home, .home-buttons-container, .recent-text-container, .bottom-panel, .footer, .application-list, .Education, .dropdown-container {
+.App, .Home, .home-buttons-container, .recent-text-container, .bottom-panel, .footer, .application-list, .Education, .dropdown-container, .about-img-box {
   display: flex;
   flex-direction: column;
 }
-.App, .Home, .home-buttons-container, .recent-text-container, .bottom-panel, .footer {
+.App, .Home, .home-buttons-container, .recent-text-container, .bottom-panel, .footer, .about-img-box {
   align-items: center;
 }
 .home-button, .about-pic-row, .skill-container, .skill, .recent-button-container, .project-link, .footer-icon-holder, .btn {
@@ -149,10 +149,16 @@ a {
 .about-pic-row {
   width: 100%;
 }
-.about-img {
-  width: 51vh;
+.about-img-box {
+  /* width: 51vh; */
   margin: 1em 1em 1em 0em;
+}
+.about-img {
   box-shadow: 0.1em 0.1em 0.2em black;
+  width: 51vh;
+}
+.about-img-cap {
+  margin: 0.5em 0em 0em 0em;
 }
 .skill {
   position: relative;
@@ -311,9 +317,16 @@ a {
 }
 .job-title {
   text-align: center;
-  margin-bottom: .5em;
+  /* margin-bottom: .5em; */
   font-size: 23px;
   font-weight: bold;
+  font-family: 'Michroma';
+}
+.job-position {
+  text-align: center;
+  margin-bottom: .5em;
+  font-size: 16px;
+  /* font-weight: bold; */
   font-family: 'Michroma';
 }
 .job-text {
@@ -415,7 +428,7 @@ a {
   .position {
     font-size: 7.5vw;
   }
-  .about-img {
+  .about-img-box, .about-img {
     width: 92vw;
   }
   .home-button {
@@ -438,7 +451,7 @@ a {
   .position {
     font-size: 7.5vw;
   }
-  .about-img {
+  .about-img-box, .about-img {
     width: 92vw;
   }
   .home-button {
@@ -479,8 +492,11 @@ a {
     flex-direction: column;
     align-items: center;
   }
-  .about-img {
+  .about-img-box {
     width: 60%;
+  }
+  .about-img {
+    width: 100%;
   }
   .Home {
     padding-bottom: 3.7em;
@@ -587,9 +603,20 @@ a {
     width: 320px !important;
     height: 280px !important;
   }
+  .Education {
+    margin: 4em 7em 0;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .Recent {
     margin: 4em 12em 0em 12em;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .Recent {
+    margin: 4em 12em 0em 12em;
+  }
+  .home-buttons-container {
+    margin: 15vh 7em 0em;
   }
 }
