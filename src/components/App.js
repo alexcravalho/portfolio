@@ -47,6 +47,11 @@ class App extends React.Component {
         'phil',
         'canoe'
       ],
+      picCap: [
+        'Tiger Kingdom Zoo, Phucket, Thailand',
+        'Davao, Philippines, with my brother Andy',
+        'Kayaking in Thailand'
+      ],
       frontEndList: [
         'TypeScript',
         'JavaScript',
@@ -134,6 +139,11 @@ class App extends React.Component {
         "Cedars-Sinai is a nonprofit academic healthcare organization serving the diverse Los Angeles community and beyond. My role as Staff Assistant took me deep into the post-surgery recovery units. I worked as clerical staff, supporting nurses, managing sensitive patient data on the medical record and responding to over fifty phone calls daily. Among my other duties, I also acted as a Customer Service Liaison interacting with a high volume of clients utilizing outstanding communication skills."
 
       ],
+      jobTitles: [
+        'Software Engineering Immersive Resident',
+        'English Language Instructor',
+        'Customer Service Liaison & Staff Assistant'
+      ],
       jobDates: [
         '2019 - 2020',
         '2015 - 2017',
@@ -161,10 +171,10 @@ class App extends React.Component {
       <div className='App'>
         <Home homeList={this.state.homeList} hrefList={this.state.hrefList} iconList={this.state.iconList}/>
         <div className='info'>
-          <About aboutImgList={this.state.aboutImgList} />
+          <About aboutImgList={this.state.aboutImgList} picCap={this.state.picCap} />
           <Skills  frontEndList={this.state.frontEndList} backEndList={this.state.backEndList} toolsList={this.state.toolsList} otherList={this.state.otherList} frontDes={this.state.frontDes} backDes={this.state.backDes} toolDes={this.state.toolDes} otherDes={this.state.otherDes}/>
           <Recent recentLinks={this.state.recentLinks} btnText={this.state.btnText}/>
-          <Experience jobList={this.state.jobList} jobDes={this.state.jobDes} jobDates={this.state.jobDates}/>
+          <Experience jobList={this.state.jobList} jobDes={this.state.jobDes} jobDates={this.state.jobDates} jobTitles={this.state.jobTitles}/>
           <Education iconList={this.state.iconList}/>
         </div>
         <Footer homeList={this.state.homeList} hrefList={this.state.hrefList} iconList={this.state.iconList}/>
