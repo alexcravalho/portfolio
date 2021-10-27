@@ -4,14 +4,14 @@ import './App.css';
 
 const Recent = (props) => (
   <div className='Recent'>
-    <div className='heading'>Recent Projects</div>
+    <div className='heading'>Software Applicaions</div>
     <div className="application-list">
       <div className="application-item">
         <img className='recent-img' src='https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/green.webp' alt='green'></img>
         <div className="recent-text-container">
           <div className="recent-title">GreenPDF Internal Tool</div>
           <div className="recent-skills">React | TypeScript | Express | Node | Material-UI | Puppeteer</div>
-          <div className="recent-description">I am currently building an internal tool for a small landscaping company that wants to update its business to include eco-friendly practices. The owner of the company wants to remove all paper records and move the company to a fully digital platform. This application captures relevant company data, transforms it into a beautiful PDF document and emails it to the company's cloud storage system at the click of a button.</div>
+          <div className="recent-description">I built an internal tool for a small landscaping company that wants to update its business to include eco-friendly practices. The owner of the company wanted to remove all paper records and move the company to a fully digital platform. This application captures relevant company data, transforms it into a beautiful PDF document and emails it to the company's cloud storage system at the click of a button.</div>
           <div className="recent-button-container">
             <NeonButton link={props.recentLinks[0]} text={props.btnText[0]} />
             <NeonButton link={props.recentLinks[1]} text={props.btnText[1]} />

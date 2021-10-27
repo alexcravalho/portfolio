@@ -127,12 +127,15 @@ class App extends React.Component {
         'Model-View-Controller design pattern reinforces separation of concerns and good programming practices'
       ],
       jobList: [
+        'IBM Inc.',
         'Hack Reactor @ Galvanize Inc.',
         'Hack Reactor @ Galvanize Inc.',
         'United States Peace Corps',
         'Cedars-Sinai Medical Center'
       ],
       jobDes: [
+        "Some stuff",
+
         "Recently, I accepted a position as a Technical Mentor for Galvanize Inc.'s Hack Reactor Software Engineering Immersive program. I am excited to work with engineering students in their journey to becoming fully fledged software engineers. In this role, I teach classes covering all aspects of web development in our local Denver campus. I am the campus' main technical resource and guide students through front-end development, back-end development, and deployment. Among my many teaching responsibilities, I also participate in curriculum improvement for the company nationally and contribute to the Galvanize codebase internally.",
 
         "Hack Reactor is a full-time Software Engineering Immersive bootcamp covering over 1000 hours of practical hands-on experience in full-stack software engineering. The parent company, Galvanize Inc., hired me to work as part of the Hack Reactor education team managing and mentoring junior engineers on engineering principles. In that role, I performed code reviews for the junior engineers and gave them guidance on how to improve their code and problem solve across the full-stack. This mentorship included computer science fundamentals, best practices, front-end and back-end development, and also app deployment technologies (including AWS EC2, S3, Docker, and various load testing tools).",
@@ -143,13 +146,15 @@ class App extends React.Component {
 
       ],
       jobTitles: [
+        'Cloud Engineer, Client Engineering',
         'Technical Mentor, Software Engineering Instructor',
         'Software Engineering Immersive Resident',
         'English Language Instructor',
         'Customer Service Liaison & Staff Assistant'
       ],
       jobDates: [
-        '2020 - present',
+        '2021 - present',
+        '2020 - 2021',
         '2019 - 2020',
         '2015 - 2017',
         '2011 - 2013'

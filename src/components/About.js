@@ -5,10 +5,10 @@ const About = (props) => (
   <div className='About'>
     <div className='heading'>About Me</div>
     <div className='about-text'>
-      Hi, I'm Alex! I'm a passionate problem solver, creative, out-of-the box thinker, and sci-fi enthusiast. I am naturally curious and love breaking things down into their respective parts to figure out how they work. I love leveraging technology against modern problems to improve the quality of people's lives.
+      Hi, I'm Alex! I'm a logical problem solver, creative, out-of-the box thinker, and sci-fi enthusiast. I am naturally curious and love breaking things down into their respective parts to figure out how they work.
     </div>
     <div className='about-text'>
-      I am a Software Engineer who works across the full stack and loves to build intuitive, attractive, and performant interfaces. I prefer working on the front end, with React in both TypeScript and JavaScript. As a full stack engineer, I have knowlege of modern databases like PostgreSQL, MongoDB and more.
+      I am a Software Engineer and a proud IBMer currently working as a Garage Cloud Engineer. Just recently, I became Red Hat Certified in Kubernetes and Containers and I'm working toward my Red Hat Specialization in OpenShift. I love playing around with web development using React and enjoy designing intuitive and aesthetic applications. At IBM, I get a chance to play around with some cutting edge AI technology and I'm constantly trying to make my ideas utilizing this tech a reality.
     </div>
     <div className='about-text'>
       When I'm not programming, I love to travel, lift weights, play video games, roll dice with friends, and speculate over financial investments.
