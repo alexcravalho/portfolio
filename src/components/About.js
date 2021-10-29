@@ -8,7 +8,7 @@ const About = (props) => (
       Hi, I'm Alex! I'm a logical problem solver, creative, out-of-the box thinker, and sci-fi enthusiast. I am naturally curious and love breaking things down into their respective parts to figure out how they work.
     </div>
     <div className='about-text'>
-      I am a Software Engineer and a proud IBMer currently working as a Garage Cloud Engineer. Just recently, I became Red Hat Certified in Kubernetes and Containers and I'm working toward my Red Hat Specialization in OpenShift. I love playing around with web development using React and enjoy designing intuitive and aesthetic applications. At IBM, I get a chance to play around with some cutting edge AI technology and I'm constantly trying to make my ideas utilizing this tech a reality.
+      I am a Software Engineer and a proud IBMer currently working as a Client Engineering (formerly Garage) Cloud Engineer. Just recently, I became Red Hat Certified in Kubernetes and Containers and I'm working toward my Red Hat Specialization in OpenShift. I love playing around with web development using React and enjoy designing intuitive and aesthetic applications. At IBM, I get a chance to play around with some cutting edge AI technology and I'm constantly trying to make my ideas utilizing this tech a reality.
     </div>
     <div className='about-text'>
       When I'm not programming, I love to travel, lift weights, play video games, roll dice with friends, and speculate over financial investments.

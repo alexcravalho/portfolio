@@ -84,6 +84,8 @@ class App extends React.Component {
         'Puppeteer'
       ],
       otherList: [
+        'Red Hat Openshift',
+        'Kubernetes',
         'RESTful API',
         'Agile',
         'TDD',
@@ -121,6 +123,8 @@ class App extends React.Component {
         'Puppeteer is a Node.js library that provides high-level API control of headless Chrome browser'
       ],
       otherDes: [
+        "I'm currently working toward becoming a fully certified Red Hat Openshift specialist",
+        "I've recently been awarded a certification in Kubernetes and Containers by Red Hat",
         "This architectural style is what I use for all my API's when I build applications with a back-end",
         'I have experience with Agile practices including test-driven development, executing sprints, pair programing, and cross-team coordination',
         'I have experience developing my own testing suites for various projects',
@@ -134,9 +138,9 @@ class App extends React.Component {
         'Cedars-Sinai Medical Center'
       ],
       jobDes: [
-        "Some stuff",
+        "It is my great pleasure and privilege to say that I now work for IBM. I recently joined the IBM Client Engineering team as a Cloud Engineer, a specialized engineering position that helps clients accelerate their Cloud and Hybrid Cloud transformations. Part full-stack, part DevOps, I work to build MVPs for IBMs clients in the financial sector. Among the awesome things I get to work with here, I especially loved building out an AI Chat Assistant, utilizing IBM Watson Assistant, Watson Discovery, Watson Speech To Text, and Watson Text to Speech. I love the dedication of IBM to its employees as they provide endless training, knowledge and upskilling opportunities. IBM is dedicated to training its employees on Red Hat Openshift, which is an Enterprise level Kubernetes container management system with tons of additional features. Beyond earning Red Hat certifications, IBM wants its employees to be cross-functional, educating employees in AI, Design Thinking, Data Science and Sales.",
 
-        "Recently, I accepted a position as a Technical Mentor for Galvanize Inc.'s Hack Reactor Software Engineering Immersive program. I am excited to work with engineering students in their journey to becoming fully fledged software engineers. In this role, I teach classes covering all aspects of web development in our local Denver campus. I am the campus' main technical resource and guide students through front-end development, back-end development, and deployment. Among my many teaching responsibilities, I also participate in curriculum improvement for the company nationally and contribute to the Galvanize codebase internally.",
+        "I got promoted! Seeing my teaching experience as extremely valueable in the engineering field, Galvanize interivewed me for the Technical Mentor role directing and overseeing the education of students in a geographical location. I accepted the position as a Technical Mentor for Galvanize Inc.'s Hack Reactor Software Engineering Immersive program and worked with engineering students in their journey to become fully trained software engineers. In this role, I taught classes covering all aspects of web development in our local Denver campus. I functioned as the campus' main technical resource and guided students through front-end development, back-end development, and deployment. Among my many teaching responsibilities, I also participated in curriculum improvement for the company nationally and contributed to the Galvanize codebase internally.",
 
         "Hack Reactor is a full-time Software Engineering Immersive bootcamp covering over 1000 hours of practical hands-on experience in full-stack software engineering. The parent company, Galvanize Inc., hired me to work as part of the Hack Reactor education team managing and mentoring junior engineers on engineering principles. In that role, I performed code reviews for the junior engineers and gave them guidance on how to improve their code and problem solve across the full-stack. This mentorship included computer science fundamentals, best practices, front-end and back-end development, and also app deployment technologies (including AWS EC2, S3, Docker, and various load testing tools).",
 

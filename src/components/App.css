@@ -163,6 +163,7 @@ a {
   position: relative;
   margin: 8px 8px 16px 0px;
   padding: .5em;
+  padding-left: .7em;
   padding-top: 13px;
   box-sizing: border-box;
   color: var(--primary-color);
@@ -383,6 +384,7 @@ a {
 .btn {
   margin: .8em 1em;
   padding: .5em;
+  padding-left: .7em;
   padding-top: 13px;
   box-sizing: border-box;
   color: var(--primary-color);

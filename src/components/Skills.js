@@ -38,7 +38,7 @@ const Skills = (props) => (
       </div>
     </div>
     <div className='other-container'>
-      <div className='sub-heading'>Other</div>
+      <div className='sub-heading'>Cloud, Scaling & Methodology</div>
       <div className='skill-container'>
         {props.otherList.map((skill, idx) => (
         <div className='skill' key={idx}>

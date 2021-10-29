@@ -11,7 +11,7 @@ const Recent = (props) => (
         <div className="recent-text-container">
           <div className="recent-title">GreenPDF Internal Tool</div>
           <div className="recent-skills">React | TypeScript | Express | Node | Material-UI | Puppeteer</div>
-          <div className="recent-description">I built an internal tool for a small landscaping company that wants to update its business to include eco-friendly practices. The owner of the company wanted to remove all paper records and move the company to a fully digital platform. This application captures relevant company data, transforms it into a beautiful PDF document and emails it to the company's cloud storage system at the click of a button.</div>
+          <div className="recent-description">I built an internal tool for a small landscaping company that wanted to update its business to include eco-friendly practices. The owner of the company wanted to remove all paper records and move the company to a fully digital platform. This application captures relevant company data, transforms it into a beautiful PDF document and emails it to the company's cloud storage system at the click of a button.</div>
           <div className="recent-button-container">
             <NeonButton link={props.recentLinks[0]} text={props.btnText[0]} />
             <NeonButton link={props.recentLinks[1]} text={props.btnText[1]} />
