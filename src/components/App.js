@@ -57,7 +57,9 @@ class App extends React.Component {
         'JavaScript',
         'React',
         'React Hooks',
+        'Redux',
         'Material-UI',
+        'Styled Components',
         'jQuery',
         'HTML',
         'CSS',
@@ -70,6 +72,10 @@ class App extends React.Component {
         'Apache Cassandra'
       ],
       toolsList: [
+        'Tekton',
+        'ArgoCD',
+        'TravisCI',
+        'Swagger',
         'Docker',
         'Nginx',
         'Git/Github',
@@ -86,6 +92,7 @@ class App extends React.Component {
       otherList: [
         'Red Hat Openshift',
         'Kubernetes',
+        'CI/CD',
         'RESTful API',
         'Agile',
         'TDD',
@@ -96,7 +103,9 @@ class App extends React.Component {
         "JavaScript is my main programming language and where I wrote my first 'Hello World'",
         'React is the modern framework I prefer to use when building applications. This site was built with React!',
         'React Hooks uses only functional components, which streamlines React applications and makes them more understandable and readable',
+        'I just got started remodeling some of my old React applications with Redux to continue learning additional Front End tools',
         'Material-UI is a package with pre-built and thoroughly tested user interface components, that make web development faster and easier',
+        'A modern styling package that allows developers to build fully customized CSS directly into React components',
         'The very first application I built used only jQuery, vanilla JS, and CSS',
         'This is the foundation of all modern web applications',
         'I style pixel-perfect user interfaces with a deep knowledge of CSS'
@@ -109,6 +118,10 @@ class App extends React.Component {
         'A powerhouse database known for its ability to handle large amounts of data and being highly scalable'
       ],
       toolDes: [
+        'This powerful and flexible CI/CD pipeline tool integrates seamlessly with Openshift. It provides Kubernetes-style resources for declaring CI/CD concepts',
+        'A declarative, GitOps continuous delivery tool for Kubernetes that allows for easy, automated deployment and mananagment of applicaitons in controlled environments',
+        'It\'s a hosted, distributed continuous integration service used to build and test software projects hosted on GitHub.',
+        'An amazing tool that helps accelerate the design, building, and documentation of API services',
         'My preferred method of containerization for deployment',
         'I have experience implementing Nginx as a load balancer to scale a service for high web traffic',
         'My favorite version control system that I use for most of my applications',
@@ -125,6 +138,7 @@ class App extends React.Component {
       otherDes: [
         "I'm currently working toward becoming a fully certified Red Hat Openshift specialist",
         "I've recently been awarded a certification in Kubernetes and Containers by Red Hat",
+        'At IBM I learned to build CI/CD piplines with Tekton, ArgoCD and TravisCI',
         "This architectural style is what I use for all my API's when I build applications with a back-end",
         'I have experience with Agile practices including test-driven development, executing sprints, pair programing, and cross-team coordination',
         'I have experience developing my own testing suites for various projects',
