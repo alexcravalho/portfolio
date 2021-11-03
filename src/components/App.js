@@ -72,6 +72,10 @@ class App extends React.Component {
         'Apache Cassandra'
       ],
       toolsList: [
+        'IBM Watson® Assistant',
+        'IBM Watson® Discovery',
+        'IBM Watson® Speech to Text',
+        'IBM Watson® Text to Speech',
         'Tekton',
         'ArgoCD',
         'TravisCI',
@@ -118,6 +122,10 @@ class App extends React.Component {
         'A powerhouse database known for its ability to handle large amounts of data and being highly scalable'
       ],
       toolDes: [
+        'This Virtual Assistant uses artificial intelligence that understands customers in context to provide fast, consistent, and accurate answers across any application, device, or channel.',
+        'An award-winning AI-powered intelligent search and text-analytics platform that eliminates data silos and retrieves information buried inside enterprise data.',
+        'I used this technology in combination with a Virtual Assistant to enable fast and accurate speech transcription',
+        'An API cloud service that enables you to convert written text into natural-sounding audio in a variety of languages and voices within an existing application or within Watson Assistant.',
         'This powerful and flexible CI/CD pipeline tool integrates seamlessly with Openshift. It provides Kubernetes-style resources for declaring CI/CD concepts',
         'A declarative, GitOps continuous delivery tool for Kubernetes that allows for easy, automated deployment and mananagment of applicaitons in controlled environments',
         'It\'s a hosted, distributed continuous integration service used to build and test software projects hosted on GitHub.',
