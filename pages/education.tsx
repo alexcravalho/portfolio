@@ -1,5 +1,5 @@
-import Dropdown from './Dropdown';
-import { dropdownList } from './education.data';
+import Dropdown from '../components/Education/Dropdown';
+import { dropdownList } from '../components/Education/education.data';
 
 export default function Education() {
   return (

@@ -1,5 +1,5 @@
-import { roleList } from './experience.data';
-import Role from './Role';
+import { roleList } from '../components/Experience/experience.data';
+import Role from '../components/Experience/Role';
 
 export default function Experience() {
   return (
