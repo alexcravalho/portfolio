@@ -1,4 +1,4 @@
-import { aboutText, imageCardList } from './about.data';
+import { aboutText, imageCardList } from '../components/About/about.data';
 import Image from 'next/image';
 
 export default function About() {

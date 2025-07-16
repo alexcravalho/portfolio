@@ -1,5 +1,5 @@
-import { appList } from './software.data';
-import Application from './Application';
+import { appList } from '../components/Software/software.data';
+import Application from '../components/Software/Application';
 
 export default function Software() {
   return (

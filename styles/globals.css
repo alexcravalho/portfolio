@@ -2,37 +2,37 @@
   font-family: 'Anurati';
   src:
     local('Anurati'),
-    url(/fonts/Anurati-Regular.otf) format('truetype');
+    url(/portfolio/fonts/Anurati-Regular.otf) format('truetype');
 }
 @font-face {
   font-family: 'Ailerons';
   src:
     local('Ailerons'),
-    url(/fonts/Ailerons-Regular.otf) format('truetype');
+    url(/portfolio/fonts/Ailerons-Regular.otf) format('truetype');
 }
 @font-face {
   font-family: 'Exan';
   src:
     local('Exan'),
-    url(/fonts/Exan-Regular.ttf) format('truetype');
+    url(/portfolio/fonts/Exan-Regular.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Simple';
   src:
     local('Simple'),
-    url(/fonts/Simple-Regular.ttf) format('truetype');
+    url(/portfolio/fonts/Simple-Regular.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Michroma';
   src:
     local('Michroma'),
-    url(/fonts/Michroma-Regular.ttf) format('truetype');
+    url(/portfolio/fonts/Michroma-Regular.ttf) format('truetype');
 }
 html {
   scroll-behavior: smooth;
 }
 body {
-  background-image: url(/grey-background.webp);
+  background-image: url(/portfolio/grey-background.webp);
   color: #fff;
   margin: 0;
   font-family: 'Simple';
@@ -90,7 +90,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(/FutureCityscape.webp);
+  background-image: url(/portfolio/FutureCityscape.webp);
   color: white;
   font-weight: 600;
   letter-spacing: 0.2em;

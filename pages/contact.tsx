@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { navList, hrefList, iconList } from './contact.data';
+import { navList, hrefList, iconList } from '../components/Contact/contact.data';
 
 export default function Contact() {
   return (

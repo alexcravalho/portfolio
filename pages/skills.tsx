@@ -1,5 +1,5 @@
-import SkillModule from './SkillModule';
-import { modules } from './skills.data';
+import SkillModule from '../components/Skills/SkillModule';
+import { modules } from '../components/Skills/skills.data';
 
 export default function Skills() {
   return (
