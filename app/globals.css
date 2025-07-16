@@ -1,28 +1,38 @@
 @font-face {
   font-family: 'Anurati';
-  src: local('Anurati'), url(../fonts/Anurati-Regular.otf) format('truetype');
+  src:
+    local('Anurati'),
+    url(/fonts/Anurati-Regular.otf) format('truetype');
 }
 @font-face {
   font-family: 'Ailerons';
-  src: local('Ailerons'), url(../fonts/Ailerons-Regular.otf) format('truetype');
+  src:
+    local('Ailerons'),
+    url(/fonts/Ailerons-Regular.otf) format('truetype');
 }
 @font-face {
   font-family: 'Exan';
-  src: local('Exan'), url(../fonts/Exan-Regular.ttf) format('truetype');
+  src:
+    local('Exan'),
+    url(/fonts/Exan-Regular.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Simple';
-  src: local('Simple'), url(../fonts/Simple-Regular.ttf) format('truetype');
+  src:
+    local('Simple'),
+    url(/fonts/Simple-Regular.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Michroma';
-  src: local('Michroma'), url(../fonts/Michroma-Regular.ttf) format('truetype');
+  src:
+    local('Michroma'),
+    url(/fonts/Michroma-Regular.ttf) format('truetype');
 }
 html {
   scroll-behavior: smooth;
 }
 body {
-  background-image: url(https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/grey-background.webp);
+  background-image: url(/grey-background.webp);
   color: #fff;
   margin: 0;
   font-family: 'Simple';
@@ -34,18 +44,42 @@ body {
   --primary-color: #2196f3;
   --secondary-color: #255784;
 }
-.App, .Home, .home-buttons-container, .recent-text-container, .bottom-panel, .footer, .application-list, .Education, .dropdown-container, .about-img-box {
+.App,
+.Home,
+.home-buttons-container,
+.sa-text-container,
+.bottom-panel,
+.footer,
+.application-list,
+.Education,
+.dropdown-container,
+.about-img-box {
   display: flex;
   flex-direction: column;
 }
-.App, .Home, .home-buttons-container, .recent-text-container, .bottom-panel, .footer, .about-img-box {
+.App,
+.Home,
+.home-buttons-container,
+.sa-text-container,
+.bottom-panel,
+.footer,
+.about-img-box {
   align-items: center;
 }
-.home-button, .about-pic-row, .skill-container, .skill, .recent-button-container, .project-link, .footer-icon-holder, .btn {
+.home-button,
+.about-pic-row,
+.skill-container,
+.skill,
+.sa-button-container,
+.project-link,
+.footer-icon-holder,
+.btn {
   display: flex;
   flex-direction: row;
 }
-.about-pic-row, .skill-container, .footer-icon-holder {
+.about-pic-row,
+.skill-container,
+.footer-icon-holder {
   flex-wrap: wrap;
 }
 .Home {
@@ -56,7 +90,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(https://alexcravalho-portfolio.s3-us-west-2.amazonaws.com/FutureCityscape.webp);
+  background-image: url(/FutureCityscape.webp);
   color: white;
   font-weight: 600;
   letter-spacing: 0.2em;
@@ -71,18 +105,18 @@ body {
 }
 .home-button {
   font-size: 1.25em;
-  letter-spacing: .05em;
-  margin: 0em 1em .5em 0em;
+  letter-spacing: 0.05em;
+  margin: 0em 1em 0.5em 0em;
   font-weight: 800;
-  transition: .3s;
+  transition: 0.3s;
 }
 .home-button:hover {
-    color: #9fc6e6;
-    text-shadow:
-      0 0 5px #58adf3,
-      0 0 10px #58adf3,
-      0 0 30px var(--primary-color),
-      0 0 60px var(--primary-color);
+  color: #9fc6e6;
+  text-shadow:
+    0 0 5px #58adf3,
+    0 0 10px #58adf3,
+    0 0 30px var(--primary-color),
+    0 0 60px var(--primary-color);
 }
 a {
   color: inherit;
@@ -96,7 +130,7 @@ a {
   font-family: 'Anurati';
   font-size: 42px;
   text-align: center;
-  margin: 1.5em 0em .2em;
+  margin: 1.5em 0em 0.2em;
   font-weight: 500;
   text-transform: uppercase;
   color: #ffd8d8;
@@ -110,7 +144,7 @@ a {
   font-family: 'Exan';
   font-size: 24px;
   text-align: center;
-  margin: 0em 0em .2em 0em;
+  margin: 0em 0em 0.2em 0em;
   font-weight: 500;
   text-transform: uppercase;
   color: #9fc6e6;
@@ -123,7 +157,7 @@ a {
 .heading {
   text-align: center;
   font-size: 3em;
-  margin: 0em 0em .4em 0em;
+  margin: 0em 0em 0.4em 0em;
   font-family: 'Ailerons';
   color: #9fc6e6;
   text-shadow:
@@ -133,7 +167,7 @@ a {
     0 0 60px var(--primary-color);
 }
 .Skills,
-.Recent,
+.Software,
 .Experience,
 .Education {
   margin: 0em 1em 1em;
@@ -152,6 +186,11 @@ a {
 .about-img-box {
   margin: 1em 1em 1em 0em;
 }
+.about-img-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+}
 .about-img {
   box-shadow: 0.1em 0.1em 0.2em black;
   width: 51vh;
@@ -162,13 +201,13 @@ a {
 .skill {
   position: relative;
   margin: 8px 8px 16px 0px;
-  padding: .5em;
-  padding-left: .7em;
+  padding: 0.5em;
+  padding-left: 0.7em;
   padding-top: 13px;
   box-sizing: border-box;
   color: var(--primary-color);
   text-transform: uppercase;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   text-decoration: none;
   font-size: 16px;
   transition: 0.4s;
@@ -195,7 +234,7 @@ a {
   letter-spacing: 0em;
 }
 .skill-hover-text::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 100%;
   left: 20%;
@@ -207,49 +246,59 @@ a {
 .skill:hover .skill-hover-text {
   visibility: visible;
   opacity: 1;
- }
+}
 .sub-heading {
   font-size: 20px;
   font-weight: 700;
   font-family: 'Michroma';
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   text-shadow: 0.1em 0.1em 0.2em black;
 }
 .application-item {
   margin-bottom: 30px;
 }
-.recent-img {
+.sa-img-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sa-img {
   box-shadow: 0.1em 0.1em 0.2em black;
   width: 0px !important;
   height: 0px !important;
+  object-fit: cover;
 }
-.recent-title {
+.sa-title {
   font-size: 1.2em;
-  margin-bottom: .6em;
+  margin-bottom: 0.6em;
   font-family: 'Michroma';
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   text-align: center;
   text-shadow: 0.1em 0.1em 0.2em black;
 }
-.recent-skills {
+.sa-tech {
   text-align: center;
   font-size: 18px;
   margin-bottom: 10px;
   line-height: 1.5;
 }
-.recent-description {
+.sa-description {
   font-size: 16px;
   line-height: 30px;
   padding-left: 15px;
 }
-.recent-button-container {
+.sa-button-container {
   width: 100%;
   justify-content: center;
 }
 .dropdown-container {
   font-size: 16px;
 }
-.dropdown-grey, .dropdown-blue {
+.dropdown-grey,
+.dropdown-blue {
   padding: 15px;
   margin-top: 5px;
   cursor: pointer;
@@ -274,7 +323,7 @@ a {
   margin-bottom: 0.5em;
   font-weight: 600;
   font-family: 'Michroma';
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 .dropdown-symbol {
   text-align: center;
@@ -304,10 +353,10 @@ a {
   font-weight: 600;
   margin-bottom: 10px;
   font-family: 'Michroma';
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   text-shadow: 0.1em 0.1em 0.2em black;
 }
-.job-description {
+.role-description {
   background-color: rgb(198, 198, 198);
   color: black;
   border: 1px solid rgb(181, 181, 181);
@@ -315,24 +364,24 @@ a {
   box-shadow: 0.1em 0.1em 0.2em black;
   margin: 20px 0px 20px 0px;
 }
-.job-title {
+.role-title {
   text-align: center;
   font-size: 23px;
   font-weight: bold;
   font-family: 'Michroma';
 }
-.job-position {
+.role-position {
   text-align: center;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   font-size: 16px;
   font-family: 'Michroma';
 }
-.job-text {
+.role-text {
   font-size: 16px;
   padding: 10px;
   line-height: 30px;
 }
-.job-date {
+.role-date {
   text-align: center;
   font-size: 18px;
   color: rgb(74, 74, 74);
@@ -346,7 +395,7 @@ a {
   height: 100%;
   margin-top: 20px;
   font-size: 20px;
-  color: rgb(203, 203, 203);;
+  color: rgb(203, 203, 203);
   background-image: linear-gradient(to top, #242424 0%, #303030 100%);
 }
 .project-link {
@@ -369,7 +418,7 @@ a {
 .like-page-text {
   font-size: 30px;
   font-weight: 300;
-  margin: .8em 0em 1em;
+  margin: 0.8em 0em 1em;
 }
 .footer-icon-holder {
   margin-bottom: 2em;
@@ -381,15 +430,18 @@ a {
 .icon-button:hover {
   color: var(--primary-color);
 }
+.fa-icon {
+  margin: 0.4em;
+}
 .btn {
-  margin: .8em 1em;
-  padding: .5em;
-  padding-left: .7em;
+  margin: 0.8em 1em;
+  padding: 0.5em;
+  padding-left: 0.7em;
   padding-top: 13px;
   box-sizing: border-box;
   color: var(--primary-color);
   text-transform: uppercase;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   text-decoration: none;
   font-size: 16px;
   transition: 0.4s;
@@ -427,7 +479,8 @@ a {
   .position {
     font-size: 7.5vw;
   }
-  .about-img-box, .about-img {
+  .about-img-box,
+  .about-img {
     width: 92vw;
   }
   .home-button {
@@ -450,7 +503,8 @@ a {
   .position {
     font-size: 7.5vw;
   }
-  .about-img-box, .about-img {
+  .about-img-box,
+  .about-img {
     width: 92vw;
   }
   .home-button {
@@ -479,7 +533,7 @@ a {
 @media only screen and (min-width: 768px) {
   .name {
     font-size: 8.5vw;
-    margin: 1.2em 0em .2em;
+    margin: 1.2em 0em 0.2em;
     line-height: 10vh;
     margin: 13vh 0em 0em 0em;
   }
@@ -512,41 +566,44 @@ a {
     font-weight: 800;
     padding: 7px;
   }
-  .About, .Skills, .Education {
+  .About,
+  .Skills,
+  .Education {
     margin: 4em 12em 0em 12em;
   }
-  .Recent {
+  .Software {
     margin: 4em 3em 0em 3em;
   }
   .heading {
     font-size: 5.5vw;
     position: relative;
-    left: -.15em;
+    left: -0.15em;
   }
   .application-item {
     display: flex;
     flex-direction: row;
     margin: 30px 0px 0px 0px;
   }
-  .recent-text-container {
+  .sa-text-container {
     margin: 0em 0em 0em 1em;
   }
-  .recent-button-container {
+  .sa-button-container {
     margin: 1em 0em 0em 0em;
   }
-  .recent-title {
+  .sa-title {
     font-size: 2.3vw;
   }
   .Experience {
     margin: 4em 10.5em 0em 10.5em;
   }
-  .job-description {
+  .role-description {
     padding: 25px;
   }
-  .job-text {
+  .role-text {
     padding: 20px;
   }
-  .dropdown-grey, .dropdown-blue {
+  .dropdown-grey,
+  .dropdown-blue {
     display: inline;
     padding: 15px;
   }
@@ -554,8 +611,9 @@ a {
     font-size: 20px;
     display: inline;
   }
-  .dropdown-date-grey, .dropdown-date-white {
-    margin: 0em 0em 0em .7em;
+  .dropdown-date-grey,
+  .dropdown-date-white {
+    margin: 0em 0em 0em 0.7em;
     display: inline;
   }
   .dropdown-symbol {
@@ -573,7 +631,7 @@ a {
     font-weight: bold;
     font-size: 18px;
   }
-  .skill-hover-text{
+  .skill-hover-text {
     font-weight: normal;
   }
   .btn {
@@ -598,7 +656,7 @@ a {
   }
 }
 @media only screen and (min-width: 1000px) {
-  .recent-img {
+  .sa-img {
     width: 320px !important;
     height: 280px !important;
   }
@@ -607,12 +665,12 @@ a {
   }
 }
 @media only screen and (min-width: 1200px) {
-  .Recent {
+  .Software {
     margin: 4em 12em 0em 12em;
   }
 }
 @media only screen and (min-width: 1400px) {
-  .Recent {
+  .Software {
     margin: 4em 12em 0em 12em;
   }
   .home-buttons-container {
